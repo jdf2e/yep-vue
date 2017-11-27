@@ -1,0 +1,134 @@
+[
+  {
+    "title": "JS Components",
+    "list": [
+      {
+        "path": "/toast",
+        "name": "Toast"
+      },
+      {
+        "path": "/indicator",
+        "name": "Indicator"
+      },
+      {
+        "path": "/loadmore",
+        "name": "Loadmore"
+      },
+      {
+        "path": "/infinite-scroll",
+        "name": "Infinite scroll"
+      },
+      {
+        "path": "/confirm",
+        "name": "confirm"
+      },
+      {
+        "path": "/action-sheet",
+        "name": "Action sheet"
+      },
+      {
+        "path": "/popup",
+        "name": "Popup"
+      },
+      {
+        "path": "/swipe",
+        "name": "Swipe"
+      },
+      {
+        "path": "/lazyload",
+        "name": "Lazy load"
+      },
+      {
+        "path": "/range",
+        "name": "Range"
+      },
+      {
+        "path": "/progress-bar",
+        "name": "Progress-bar"
+      },
+      {
+        "path": "/picker",
+        "name": "Picker"
+      },
+      {
+        "path": "/datetime-picker",
+        "name": "Datetime Picker"
+      },
+      {
+        "path": "/index-list",
+        "name": "Index List"
+      },
+      {
+        "path": "/palette-button",
+        "name": "Palette Button (2.0)",
+        "only": ["cn"]
+      }
+    ]
+  },
+  {
+    "title": "CSS Components",
+    "list": [
+      {
+        "path": "/header",
+        "name": "Header"
+      },
+      {
+        "path": "/tabbar",
+        "name": "Tabbar"
+      },
+      {
+        "path": "/navbar",
+        "name": "Navbar"
+      },
+      {
+        "path": "/button",
+        "name": "Button"
+      },
+      {
+        "path": "/cell",
+        "name": "Cell"
+      },
+      {
+        "path": "/cell-swipe",
+        "name": "Cell Swipe"
+      },
+      {
+        "path": "/spinner",
+        "name": "Spinner"
+      },
+      {
+        "path": "/tab-container",
+        "name": "TabContainer"
+      },
+      {
+        "path": "/search",
+        "name": "Search"
+      }
+    ]
+  },
+  {
+    "title": "Form Components",
+    "list": [
+      {
+        "path": "/switch",
+        "name": "Switch"
+      },
+      {
+        "path": "/checklist",
+        "name": "Checklist"
+      },
+      {
+        "path": "/radio",
+        "name": "Radio"
+      },
+      {
+        "path": "/field",
+        "name": "Field"
+      },
+      {
+        "path": "/badge",
+        "name": "Badge"
+      }
+    ]
+  }
+]
