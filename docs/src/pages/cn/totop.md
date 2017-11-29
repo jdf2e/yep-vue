@@ -1,6 +1,6 @@
 # Totop
 
-> 轮播图，可自定义轮播时间间隔、动画时长等。
+> 回到顶部，可自定义按钮样式、出现按钮时的滚动距离。
 
 -------------
 
@@ -17,10 +17,10 @@ Vue.use(totop);
 基础用法
 
 ```html
-<totop 
-  :scrollDistance="500" 
-  ht="1.18rem" 
-  wh="1.18rem" 
+<totop
+  :scrollDistance="500"
+  ht="59px"
+  wh="59px"
   :imgUrl="imgUrl"
 >
 </totop>
