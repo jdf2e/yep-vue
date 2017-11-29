@@ -2,7 +2,7 @@
   <div class="phone">
     <iframe
       class="demo-page"
-      :src="'//page.jd.com/m/jdc_vue_components/1.0.2/index.html#' + (routePath === '/loadmore' ? '/pull-down' : (routePath === '/quickstart' ? '' : routePath))"
+      :src="'//yep.jd.com/demos.html#' + (routePath === '/loadmore' ? '/pull-down' : (routePath === '/quickstart' ? '' : routePath))"
       frameborder="0">
     </iframe>
   </div>
@@ -26,7 +26,7 @@
 
 <style lang="css" scoped>
   .phone {
-    background-image: url('../assets/phone.png');
+    background-image: url('./../assets/img/phone.png');
     box-sizing: border-box;
 
     min-width: 350px;

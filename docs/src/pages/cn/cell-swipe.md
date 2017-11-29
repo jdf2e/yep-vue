@@ -8,9 +8,9 @@
 ## 引入
 
 ```javascript
-import { CellSwipe } from 'yepui';
+import { cellSwipe } from 'yepui';
 
-Vue.component(CellSwipe.name, CellSwipe);
+Vue.component('cellSwipe', cellSwipe);
 ```
 
 ## 例子

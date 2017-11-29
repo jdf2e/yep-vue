@@ -4,6 +4,6 @@
     "user": "arch",
     "password": "arch"
   },
-  "projectPath": "m/m-ui/web-portal/1.0.0",
-  "cdn": "//misc.360buyimg.com"
+  "projectPath": "index/1.0.0",
+  "cdn": ""
 }

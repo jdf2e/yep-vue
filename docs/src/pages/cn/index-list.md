@@ -7,10 +7,10 @@
 ## 引入
 
 ```javascript
-import { IndexList, IndexSection } from 'yepui';
+import { indexList, indexSection } from 'yepui';
 
-Vue.component(IndexList.name, IndexList);
-Vue.component(IndexSection.name, IndexSection);
+Vue.component('indexList', indexList);
+Vue.component('indexSection', indexSection);
 ```
 
 ## 例子

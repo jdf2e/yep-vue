@@ -7,9 +7,9 @@
 ## 引入
 
 ```javascript
-import { Button } from 'yepui';
+import { tips } from 'yepui';
 
-Vue.component(Button.name, Button);
+Vue.component('tips', tips);
 ```
 
 ## 例子

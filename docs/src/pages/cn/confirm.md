@@ -6,7 +6,9 @@
 ## 引入
 
 ```javascript
+import Vue from 'vue'
 import { confirm } from 'yepui';
+Vue.use(confirm);
 ```
 
 ## 例子

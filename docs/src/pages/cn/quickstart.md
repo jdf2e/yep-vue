@@ -17,7 +17,16 @@ vue init webpack projectname
 ## 安装yepui ##
 
 ```bash
-npm install --save @jdcfe/jdc_vue_components
+
+# 安装nrm #
+npm install -g nrm
+
+# 添加jdnpm源
+nrm add jdnpm2 http://registry.m.jd.com/
+nrm use jdnpm2
+
+# 安装组件
+npm install --save @jdcfe/yepui
 ```
 
 ## 引入 Yep UI
@@ -29,14 +38,14 @@ npm install --save @jdcfe/jdc_vue_components
 
 在 main.js 中写入以下内容：
 ```javascript
-  import vueComponent from '@jdcfe/jdc_vue_components'
+  import vueComponent from '@jdcfe/yepui'
   Vue.use(vueComponent)
 ```
 
 ### 按需引入
 
 ```javascript
-  import {toast} from  '@jdcfe/jdc_vue_components'
+  import {toast} from  '@jdcfe/yepui'
   Vue.use(toast)
 ```
 ```javascript

@@ -1,18 +1,8 @@
 <template>
   <nav class="nav">
     <ul>
-      <li>
-        <a class="nav-link edit-doc-btn" href="//git.jd.com/JDC_FE/JDC_m_UI" target="_blank">
-          {{ isZH ? '参与文档编辑' : 'Edit Documentation' }}
-        </a>
-      </li>
-      <li>
-        <router-link
-          class="nav-link"
-          active-class="is-active"
-          exact
-          :to="{ path: '/' + $route.meta.language }">Overview</router-link>
-      </li>
+
+
       <li>
         <router-link
           class="nav-link"

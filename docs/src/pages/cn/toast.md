@@ -6,7 +6,9 @@
 ## 引入
 
 ```javascript
-import { Toast } from 'yepui';
+import Vue from 'vue'
+import { toast } from 'yepui';
+Vue.use(toast);
 ```
 
 ## 例子

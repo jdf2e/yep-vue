@@ -35,10 +35,6 @@
         "name": "Swipe"
       },
       {
-        "path": "/lazyload",
-        "name": "Lazy load"
-      },
-      {
         "path": "/range",
         "name": "Range"
       },
@@ -58,11 +54,6 @@
         "path": "/index-list",
         "name": "Index List"
       },
-      {
-        "path": "/palette-button",
-        "name": "Palette Button (2.0)",
-        "only": ["cn"]
-      }
     ]
   },
   {

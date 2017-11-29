@@ -5,7 +5,7 @@
   "private": false,
   "keywords": [],
   "cdnPath": "//misc.360buyimg.com/",
-  "projectPath": "m/yepui/docs/",
+  "projectPath": "/docs/",
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",

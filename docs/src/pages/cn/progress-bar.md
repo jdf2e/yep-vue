@@ -1,4 +1,4 @@
-# Progress
+# Progress-bar
 
 > 进度条。
 
@@ -7,9 +7,9 @@
 ## 引入
 
 ```javascript
-import { ProgressBar } from 'yepui';
+import { progressBar } from 'yepui';
 
-Vue.component(ProgressBar.name, ProgressBar);
+Vue.component('progressBar',progressBar);
 ```
 
 ## 例子

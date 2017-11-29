@@ -1,4 +1,4 @@
-# Swipe
+# Touch
 
 > 轮播图，可自定义轮播时间间隔、动画时长等。
 
@@ -7,9 +7,9 @@
 ## 引入
 
 ```javascript
-import { Swipe } from 'yepui';
+import { touch } from 'yepui';
 
-Vue.use(Swipe.name, Swipe);
+Vue.use('touch', touch);
 ```
 
 ## 例子

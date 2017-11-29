@@ -15,10 +15,6 @@
         "name": "Popup"
       },
       {
-        "path": "/lazyload",
-        "name": "Lazy load"
-      },
-      {
         "path": "/progress-bar",
         "name": "Progress-bar"
       },

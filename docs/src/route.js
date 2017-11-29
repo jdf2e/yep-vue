@@ -19,11 +19,20 @@ const route = {
   //   langs: LANG_CONFIG.langs,
   //   title: '选择语言'
   // },
-
-  '/cn': {
-    title: '概述',
+  // '/cn': {
+  //   title: '概述',
+  //   language: 'cn',
+  //   component: resolve => require(['./pages/cn/README.md'], resolve)
+  // },
+  '/': {
+    title: '快速上手',
     language: 'cn',
-    component: resolve => require(['./pages/cn/README.md'], resolve)
+    component: resolve => require(['./pages/cn/quickstart.md'], resolve)
+  },
+  '/cn': {
+    title: '快速上手',
+    language: 'cn',
+    component: resolve => require(['./pages/cn/quickstart.md'], resolve)
   },
   '/cn/quickstart': {
     title: '快速上手',
@@ -70,11 +79,6 @@ const route = {
     language: 'cn',
     component: resolve => require(['./pages/cn/touch.md'], resolve)
   },
-  '/cn/lazyload': {
-    title: 'Lazy load',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/lazyload.md'], resolve)
-  },
   '/cn/range': {
     title: 'Range',
     language: 'cn',
@@ -99,11 +103,6 @@ const route = {
     title: 'Index List',
     language: 'cn',
     component: resolve => require(['./pages/cn/index-list.md'], resolve)
-  },
-  '/cn/palette-button': {
-    title: 'Palette Button (2.0)',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/palette-button.md'], resolve)
   },
   '/cn/header': {
     title: 'Header',

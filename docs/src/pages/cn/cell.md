@@ -8,9 +8,9 @@
 ## 引入
 
 ```javascript
-import { Cell } from 'yepui';
+import { cell } from 'yepui';
 
-Vue.component(Cell.name, Cell);
+Vue.component('cell', cell);
 ```
 
 ## 例子
