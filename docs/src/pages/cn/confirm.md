@@ -13,14 +13,6 @@ Vue.use(confirm);
 
 ## 例子
 
-以标题与内容字符串为参数进行调用
-
-```javascript
-confirm('提示', '操作成功');
-```
-
-或者传入一个对象
-
 ```javascript
  this.$confirm({
     title: 'test',

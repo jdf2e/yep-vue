@@ -19,7 +19,7 @@ Vue.use(toast);
 this.$toast("提示信息");
 ```
 
-在调用 `Toast` 时传入一个对象即可配置更多选项
+在调用时传入一个对象即可配置更多选项
 
 ```javascript
   this.$toast({
