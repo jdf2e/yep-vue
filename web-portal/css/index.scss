@@ -8,7 +8,8 @@ html {
 body {
     margin: 0;
     font-size: 14px;
-    font-family: Helvetica Neue, Helvetica, STHeiTi, Arial, sans-serif
+    font-family: Helvetica Neue, Helvetica, STHeiTi, Arial, sans-serif;
+    background-color: #F8FAFF;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
@@ -328,7 +329,6 @@ body {
 }
 
 .page-home-jumbotron {
-    background-color: #fff;
     padding-bottom: 30px;
     position: relative;
     text-align: center
@@ -357,13 +357,13 @@ body {
 .page-home-title {
     margin-top: 10px;
     font-size: 30px;
-    color: #26a2ff
+    color: #34485e
 }
 
 .page-home-desc {
     margin-top: 10px;
     font-size: 20px;
-    color: #26a2ff;
+    color: #34485e;
     opacity: 0
 }
 
@@ -379,10 +379,10 @@ body {
 
 .page-home-button {
     display: inline-block;
-    color: #26a2ff;
+    color: #34485e;
     padding: 10px;
     width: 200px;
-    border: 2px solid #26a2ff;
+    border: 2px solid #34485e;
     border-radius: 5px;
     font-size: 18px
 }
@@ -393,7 +393,7 @@ body {
 
 .page-home-button:hover {
     color: #fff;
-    background-color: #26a2ff
+    background-color: #34485e
 }
 
 .page-home-gitbtn {
@@ -403,69 +403,76 @@ body {
 
 .page-home-qrcode {
     text-align: center;
-    margin-top: 40px
+    margin-top: 10px
 }
 
-.page-home-qrcode img {
-    width: 250px
-}
 
-.page-home-sector {
-    margin-top: 40px;
+.page-home-tit {
+    margin: 20px 10px;
     font-size: 20px;
-    color: #26a2ff;
-    text-align: center
+    color: #34485e;
+    text-align: left
 }
-
+.page-home-detail{
+    padding-left: 20px;
+}
 .page-home-sector--dark {
     padding-top: 20px
 }
-
-.page-home-start {
-    margin: 40px auto 60px;
+.page-home-start{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.page-home-left{
+    float: left;
+    width: 650px;
+}
+.page-home-code {
+    margin-left:20px;
+    margin-bottom: 60px;
     background-color: #f8f8f8;
     border-radius: 8px;
     border: 1px solid #ddd;
-    padding: 15px
+    padding: 15px;
 }
-
-.page-home-start code {
+.page-home-code code{
     display: block;
     margin-top: 25px
 }
 
-.page-home-start code:first-child {
+.page-home-code code:first-child {
     margin-top: 0
 }
 
-.page-home-start code > span {
+.page-home-code code > span {
     display: block;
     line-height: 20px
 }
 
-.page-home-start code > span.page-home-comment {
+.page-home-code code > span.page-home-comment {
     color: #969896
 }
 
-.page-home-start .pl-smi {
+.page-home-code .pl-smi {
     color: #333
 }
 
-.page-home-start .pl-k {
+.page-home-code .pl-k {
     color: #a71d5d
 }
 
-.page-home-start .pl-s {
+.page-home-code .pl-s {
     color: #183691
 }
 
-.page-home-start .pl-en {
+.page-home-code .pl-en {
     color: #795da3
 }
 
 .page-home-show {
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 20px 0 40px 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -486,26 +493,19 @@ body {
 }
 
 .page-home-feature li {
+    float: left;
+    width: 240px;
     color: #333;
     margin-bottom: 30px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap
 }
 
 .page-home-feature i {
+    text-indent: 90px;
     vertical-align: middle;
-    color: #26a2ff;
+    color: #34485e;
     font-size: 80px;
-    display: -webkit-box
+    display: -webkit-box;
+    margin-bottom: 10px;
 }
 
 .page-home-feature span {
@@ -521,7 +521,7 @@ body {
 
 .page-home-phone {
     min-width: 350px;
-    display: inline-block;
+    float: right;
     width: 380px;
     height: 760px;
     background: url(/css/i/phone.png) no-repeat;
@@ -540,7 +540,7 @@ body {
 }
 
 .page-home-footer a {
-    color: #26a2ff
+    color: #34485e
 }
 
 @media (max-width: 500px) {
@@ -600,7 +600,7 @@ body {
     .page-home-qrcode {
         display: none
     }
-    .page-home-start {
+    .page-home-code {
         width: 90%
     }
     .page-home-phone {
@@ -639,11 +639,11 @@ body {
 }
 
 .link[_v-685f27ed] {
-    color: #26a2ff;
+    color: #34485e;
     padding: 0 10px;
     -webkit-transition: all .2s;
     transition: all .2s;
-    border-right: 1px solid #26a2ff
+    border-right: 1px solid #34485e
 }
 
 .link[_v-685f27ed]:last-child {
@@ -1635,5 +1635,8 @@ body {
 }
 
 .msgbox-confirm, .msgbox-confirm:active {
-    color: #26a2ff
+    color: #34485e
 }
+
+.page-home-footer{height: 100px; line-height: 100px; background-color: #26344e; text-align: center; color: #acbbd1;}
+.page-home-footer a{color: #acbbd1;}
