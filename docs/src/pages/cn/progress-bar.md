@@ -14,14 +14,6 @@ Vue.use(progressBar);
 
 ## 例子
 
-传入 `value` 作为进度条的值。可自定义它的线宽
-
-```html
-<progress-bar :value="20" :bar-height="5"></progress-bar>
-```
-
-可在进度条两侧显示文字
-
 ```html
  <progress-bar 
    :percent="percent"
