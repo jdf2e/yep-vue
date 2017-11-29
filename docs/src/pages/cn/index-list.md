@@ -9,8 +9,8 @@
 ```javascript
 import { indexList, indexSection } from 'yepui';
 
-Vue.component('indexList', indexList);
-Vue.component('indexSection', indexSection);
+Vue.use(indexList);
+Vue.use(indexSection);
 ```
 
 ## 例子

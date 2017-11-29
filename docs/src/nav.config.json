@@ -29,6 +29,10 @@
       {
         "path": "/range",
         "name": "Range"
+      },
+      {
+        "path": "/totop",
+        "name": "Totop"
       }
     ]
   },

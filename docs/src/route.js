@@ -84,6 +84,11 @@ const route = {
     language: 'cn',
     component: resolve => require(['./pages/cn/range.md'], resolve)
   },
+  '/cn/totop': {
+    title: 'Totop',
+    language: 'cn',
+    component: resolve => require(['./pages/cn/totop.md'], resolve)
+  },
   '/cn/progress-bar': {
     title: 'Progress-bar',
     language: 'cn',

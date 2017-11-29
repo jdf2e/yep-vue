@@ -9,7 +9,7 @@
 ```javascript
 import { btnSwitch } from 'yepui';
 
-Vue.component(btnSwitch.name, btnSwitch);
+Vue.use(btnSwitch);
 ```
 
 ## 例子

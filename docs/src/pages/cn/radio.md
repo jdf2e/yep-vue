@@ -7,9 +7,9 @@
 ## 引入
 
 ```javascript
-import { Radio } from 'yepui';
+import { radio } from 'yepui';
 
-Vue.component(Radio.name, Radio);
+Vue.use(radio);
 ```
 
 ## 例子

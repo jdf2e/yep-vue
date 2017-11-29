@@ -7,9 +7,9 @@
 ## 引入
 
 ```javascript
-import { Badge } from 'yepui';
+import { badge } from 'yepui';
 
-Vue.component(Badge.name, Badge);
+Vue.use(badge);
 ```
 
 ## 例子

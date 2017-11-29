@@ -10,7 +10,7 @@
 ```javascript
 import { cell } from 'yepui';
 
-Vue.component('cell', cell);
+Vue.use(cell);
 ```
 
 ## 例子

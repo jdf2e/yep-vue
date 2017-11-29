@@ -9,7 +9,7 @@
 ```javascript
 import { touch } from 'yepui';
 
-Vue.use('touch', touch);
+Vue.use(touch);
 ```
 
 ## 例子

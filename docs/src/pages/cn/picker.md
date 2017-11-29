@@ -9,7 +9,7 @@
 ```javascript
 import { picker } from 'yepui';
 
-Vue.component('picker', picker);
+Vue.use(picker);
 ```
 
 ## 例子

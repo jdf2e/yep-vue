@@ -9,7 +9,7 @@
 ```javascript
 import { checklist } from 'yepui';
 
-Vue.component('checklist', checklist);
+Vue.use(checklist);
 ```
 
 ## 例子

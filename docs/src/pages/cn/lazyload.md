@@ -7,9 +7,9 @@
 ## 引入
 
 ```javascript
-import { Lazyload } from 'yepui';
+import { lazyload } from 'yepui';
 
-Vue.use(Lazyload);
+Vue.use(lazyload);
 ```
 
 ## 例子

@@ -7,9 +7,9 @@
 ## 引入
 
 ```javascript
-import { Spinner } from 'yepui';
+import { spinner } from 'yepui';
 
-Vue.component(Spinner.name, Spinner);
+Vue.use(spinner);
 ```
 
 ## 例子

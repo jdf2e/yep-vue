@@ -9,7 +9,7 @@
 ```javascript
 import { field } from 'yepui';
 
-Vue.component('field', field);
+Vue.use(field);
 ```
 
 ## 例子

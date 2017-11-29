@@ -7,9 +7,9 @@
 ## 引入
 
 ```javascript
-import { DatetimePicker } from 'yepui';
+import { datetimePicker } from 'yepui';
 
-Vue.component(DatetimePicker.name, DatetimePicker);
+Vue.use(datetimePicker);
 ```
 
 ## 例子

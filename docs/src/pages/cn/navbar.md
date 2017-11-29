@@ -6,7 +6,7 @@
 ```javascript
 import { navbar } from 'yepui';
 
-Vue.component('navbar', navbar);
+Vue.use(navbar);
 
 ```
 

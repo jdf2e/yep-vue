@@ -9,7 +9,7 @@
 ```javascript
 import { progressBar } from 'yepui';
 
-Vue.component('progressBar',progressBar);
+Vue.use(progressBar);
 ```
 
 ## 例子

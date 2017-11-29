@@ -7,9 +7,9 @@
 ## 引入
 
 ```javascript
-import { Loadmore } from 'yepui';
+import { loadmore } from 'yepui';
 
-Vue.component(Loadmore.name, Loadmore);
+Vue.use(loadmore);
 ```
 
 ## 例子

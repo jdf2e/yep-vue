@@ -9,7 +9,7 @@
 ```javascript
 import { tabbar } from 'yepui';
 
-Vue.component('tabbar', tabbar);
+Vue.use(tabbar);
 ```
 
 ## 例子

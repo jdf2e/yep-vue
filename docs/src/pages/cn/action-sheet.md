@@ -7,9 +7,9 @@
 ## 引入
 
 ```javascript
-import { Actionsheet } from 'yepui';
+import { actionsheet } from 'yepui';
 
-Vue.component(Actionsheet.name, Actionsheet);
+Vue.use(actionsheet);
 ```
 
 ## 例子
