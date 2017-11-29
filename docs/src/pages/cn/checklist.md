@@ -14,7 +14,6 @@ Vue.use(checklist);
 
 ## 例子
 
-基本用法
 ```html
 <checklist 
   :propsRadios="radios" 
@@ -24,7 +23,6 @@ Vue.use(checklist);
 
 ```
 
-设置禁用选项
 ```javascript
 data() {
     return {

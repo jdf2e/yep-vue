@@ -14,12 +14,6 @@ Vue.use(search);
 
 ## 例子
 
-基础用法
-```html
-<search v-model="value"></search>
-```
-
-设置显示文字
 ```html
 <search ph="placeholder"
         @handleSearch="handleSearch"

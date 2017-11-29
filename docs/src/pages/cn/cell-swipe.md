@@ -15,7 +15,6 @@ Vue.use(cellSwipe);
 
 ## 例子
 
-增加右滑动按钮
 
 ```html
  <cell-swipe :params="params" 

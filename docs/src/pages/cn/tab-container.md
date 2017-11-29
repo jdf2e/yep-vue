@@ -14,7 +14,6 @@ Vue.use(tabContainer);
 
 ## 例子
 
-改变 ative 的值，与 `<tab-container-item>` 的 id 一致即显示对应页面。
 
 ```html
   <tabContainer :hasTitle="hasTitle" :hdList="hdList">
