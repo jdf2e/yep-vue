@@ -25,6 +25,10 @@
       {
         "path": "/index-list",
         "name": "Index List"
+      },
+      {
+        "path": "/range",
+        "name": "Range"
       }
     ]
   },
