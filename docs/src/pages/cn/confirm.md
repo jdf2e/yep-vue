@@ -7,14 +7,14 @@
 
 ```javascript
 import Vue from 'vue'
-import { confirm } from 'yepui';
-Vue.use(confirm);
+import { yepConfirm } from 'yepui';
+Vue.use(yepConfirm);
 ```
 
 ## 例子
 
 ```javascript
- this.$confirm({
+ this.$yepConfirm({
     title: 'test',
     message: 'test',
     leftTxt: '取消',

@@ -7,16 +7,16 @@
 ## 引入
 
 ```javascript
-import { tabbar } from 'yepui';
+import { yepTabbar } from 'yepui';
 
-Vue.use(tabbar);
+Vue.use(yepTabbar);
 ```
 
 ## 例子
 
 
 ```html
- <tabbar :tabs="tabs" @handTabClick="handTabClick"></tabbar>
+ <yep-tabbar :tabs="tabs" @handTabClick="handTabClick"></yep-tabbar>
 ```
 
 ```js
@@ -57,7 +57,7 @@ tabs: [
 
 ## API
 
-### tabbar
+### yep-tabbar
 | 参数 | 说明 | 类型 | 可选值 | 默认值 |
 |------|-------|---------|-------|--------|
 | text | 每个tabbar item的文字 | String | |  |

@@ -7,20 +7,20 @@
 ## 引入
 
 ```javascript
-import { field } from 'yepui';
+import { yepField } from 'yepui';
 
-Vue.use(field);
+Vue.use(yepField);
 ```
 
 ## 例子
 
 基础用法
 ```html
-<field 
+<yep-field 
     :inputs="inputs"
     @handleLinkClick="handleLinkClick"
  >
-</field>
+</yep-field>
 
 ```
 

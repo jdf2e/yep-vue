@@ -7,17 +7,17 @@
 ## 引入
 
 ```javascript
-import { button } from 'yepui';
+import { yepBtn } from 'yepui';
 
-Vue.use(button);
+Vue.use(yepBtn);
 ```
 
 ## 例子
 
 ```html
-<btn :btns="btns1" @handleClick="handleClick"></btn>
-<btn :btns="btns2" @handleClick="handleClick"></btn>
-<btn :btns="btns3" @handleClick="handleClick"></btn>
+<yep-btn :btns="btns1" @handleClick="handleClick"></yep-btn>
+<yep-btn :btns="btns2" @handleClick="handleClick"></yep-btn>
+<yep-btn :btns="btns3" @handleClick="handleClick"></yep-btn>
 ```
 
 ```js

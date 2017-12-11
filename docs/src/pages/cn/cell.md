@@ -8,56 +8,56 @@
 ## 引入
 
 ```javascript
-import { cell } from 'yepui';
+import { yepCell } from 'yepui';
 
-Vue.use(cell);
+Vue.use(yepCell);
 ```
 
 ## 例子
 
 基础用法
 ```html
-<cell title="标题文字"></cell>
-<cell title="标题文字" value="说明文字"></cell>
+<yep-cell title="标题文字"></yep-cell>
+<yep-cell title="标题文字" value="说明文字"></yep-cell>
 ```
 
 可点击的链接
 
 ```html
-<cell
+<<yep-cell
   title="标题文字"
   to="//github.com"
   is-link
   value="带链接">
-</cell>
+</yep-cell>
 ```
 
 带图标
 
 ```html
-<cell title="标题文字" icon="more" value="带 icon"></cell>
+<yep-cell title="标题文字" icon="more" value="带 icon"></yep-cell>
 ```
 
 
 带自定义图标
 
 ```html
-<cell title="标题文字">
+<yep-cell title="标题文字">
   <span>icon 是图片</span>
   <img slot="icon" src="../assets/100x100.png" width="24" height="24">
-</cell>
+</yep-cell>
 ```
 
 自定义内容
 ```html
-<cell title="标题文字" is-link>
+<yep-cell title="标题文字" is-link>
   <span style="color: green">这里是元素</span>
-</cell>
+</yep-cell>
 ```
 
 带备注信息
 ```html
-<cell title="标题" label="描述信息" is-link></cell>
+<yep-cell title="标题" label="描述信息" is-link></yep-cell>
 ```
 
 

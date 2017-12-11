@@ -7,9 +7,9 @@
 ## 引入
 
 ```javascript
-import { picker } from 'yepui';
+import { yepPicker } from 'yepui';
 
-Vue.use(picker);
+Vue.use(yepPicker);
 ```
 
 ## 例子
@@ -17,7 +17,7 @@ Vue.use(picker);
 传入 `slots`，当被选中的值发生变化时触发 `change` 事件。`change` 事件有两个参数，分别为当前 `picker` 的 vue 实例和各 slot 被选中的值组成的数组
 
 ```html
-<picker :slots="slots" @change="onValuesChange"></picker>
+<yep-picker :slots="slots" @change="onValuesChange"></yep-picker>
 ```
 
 ```javascript
@@ -55,7 +55,7 @@ export default {
 
 ## `change` 事件
 
-在 `change` 事件中，可以使用注册到 `picker` 实例上的一些方法：
+在 `change` 事件中，可以使用注册到 `yep-picker` 实例上的一些方法：
 *  getSlotValue(index)：获取给定 slot 目前被选中的值
 *  setSlotValue(index, value)：设定给定 slot 被选中的值，该值必须存在于该 slot 的备选值数组中
 *  getSlotValues(index)：获取给定 slot 的备选值数组
@@ -71,7 +71,7 @@ export default {
 |------|--------|
 | divider | 对应 slot 是否为分隔符 |
 | content | 分隔符 slot 的显示文本 |
-| values | 对应 slot 的备选值数组。若为对象数组，则需在 `picker` 标签上设置 `value-key` 属性来指定显示的字段名 |
+| values | 对应 slot 的备选值数组。若为对象数组，则需在 `yep-picker` 标签上设置 `value-key` 属性来指定显示的字段名 |
 | defaultIndex | 对应 slot 初始选中值，需传入其在 values 数组中的序号，默认为 0 |
 | textAlign | 对应 slot 的对齐方式 |
 | flex | 对应 slot CSS 的 flex 值|

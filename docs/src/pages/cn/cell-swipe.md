@@ -8,19 +8,19 @@
 ## 引入
 
 ```javascript
-import { cellSwipe } from 'yepui';
+import { yepCellSwipe } from 'yepui';
 
-Vue.use(cellSwipe);
+Vue.use(yepCellSwipe);
 ```
 
 ## 例子
 
 
 ```html
- <cell-swipe :params="params" 
+ <yep-cell-swipe :params="params" 
     @handleConfirmClick="handleConfirmClick"
     @handleCancelClick="handleCancelClick">
- </cell-swipe>
+ </yep-cell-swipe>
 ```
 
 ```js

@@ -7,16 +7,16 @@
 ## 引入
 
 ```javascript
-import { tabContainer } from 'yepui';
+import { yep-tab-container } from 'yepui';
 
-Vue.use(tabContainer);
+Vue.use(yep-tab-container);
 ```
 
 ## 例子
 
 
 ```html
-  <tabContainer :hasTitle="hasTitle" :hdList="hdList">
+  <yep-tab-container :hasTitle="hasTitle" :hdList="hdList">
       <div class="bd-0">
           <ul>
               <li v-for="n in 5" :key="n">item</li>
@@ -32,7 +32,7 @@ Vue.use(tabContainer);
               <li v-for="n in 15" :key="n">item</li>
           </ul>
       </div>
-  </tabContainer>
+  </yep-tab-container>
 ```
 
 ```js
@@ -56,7 +56,7 @@ hasTitle: true,
 ```
 
 ## API
-### tab-container
+### yep-tab-container
 
 | 参数 | 说明 | 类型 | 可选值 | 默认值 |
 |------|-------|---------|-------|--------|

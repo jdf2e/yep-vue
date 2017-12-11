@@ -7,9 +7,9 @@
 ## 引入
 
 ```javascript
-import { InfiniteScroll } from 'yepui';
+import { yepInfiniteScroll } from 'yepui';
 
-Vue.use(InfiniteScroll);
+Vue.use(yepInfiniteScroll);
 ```
 
 ## 例子
@@ -17,11 +17,11 @@ Vue.use(InfiniteScroll);
 为 HTML 元素添加 `loadMore` 指令可以传递加载的方法，内部可以自定义元素。
 
 ```html
-<InfiniteScroll @loadMore="loadMore">
+<yep-InfiniteScroll @loadMore="loadMore">
   <ul>
     <li v-for="n in total" :key="n">item{{n}}</li>
   </ul>
-</InfiniteScroll>
+</yep-InfiniteScroll>
 ```
 
 ```javascript

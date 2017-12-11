@@ -7,20 +7,20 @@
 ## 引入
 
 ```javascript
-import { progressBar } from 'yepui';
+import { yepProgressBar } from 'yepui';
 
-Vue.use(progressBar);
+Vue.use(yepProgressBar);
 ```
 
 ## 例子
 
 ```html
- <progress-bar 
+ <yep-progress-bar 
    :percent="percent"
    :colorStart="colorStart"
    :colorEnd="colorEnd"
   >
-  </progress-bar>
+  </yep-progress-bar>
 ```
 
 ## API

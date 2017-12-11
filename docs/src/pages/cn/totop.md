@@ -7,9 +7,9 @@
 ## 引入
 
 ```javascript
-import { totop } from 'yepui';
+import { yepTotop } from 'yepui';
 
-Vue.use(totop);
+Vue.use(yepTotop);
 ```
 
 ## 例子
@@ -17,13 +17,13 @@ Vue.use(totop);
 基础用法
 
 ```html
-<totop
+<yep-totop
   :scrollDistance="500"
   ht="59px"
   wh="59px"
   :imgUrl="imgUrl"
 >
-</totop>
+</yep-totop>
 
 ```
 
