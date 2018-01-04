@@ -10,6 +10,8 @@ body {
     font-size: 14px;
     font-family: Helvetica Neue, Helvetica, STHeiTi, Arial, sans-serif;
     background-color: #F8FAFF;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
@@ -494,18 +496,19 @@ body {
 
 .page-home-feature li {
     float: left;
-    width: 240px;
+    width: 25%;
     color: #333;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .page-home-feature i {
-    text-indent: 90px;
     vertical-align: middle;
     color: #34485e;
     font-size: 80px;
-    display: -webkit-box;
+    display: block;
     margin-bottom: 10px;
+    margin: 0 auto;
 }
 
 .page-home-feature span {
@@ -516,7 +519,8 @@ body {
     line-height: 1.6;
     vertical-align: middle;
     font-size: 16px;
-    display: -webkit-box
+    display: -webkit-box;
+    text-align: left;
 }
 
 .page-home-phone {
