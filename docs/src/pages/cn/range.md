@@ -7,9 +7,9 @@
 ## 引入
 
 ```javascript
-import { range } from 'yepui';
+import { yepRange } from 'yepui';
 
-Vue.use(range);
+Vue.use(yepRange);
 ```
 
 ## 例子
@@ -17,30 +17,30 @@ Vue.use(range);
 将一个本地变量与 `range` 的 `value` 属性同步即可实现双向绑定
 
 ```html
-<range value.sync="rangeValue"></range>
+<yep-range value.sync="rangeValue"></yep-range>
 ```
 
 更多的配置项
 
 
 ```html
-<range :value.sync="rangeValue"
+<yep-range :value.sync="rangeValue"
 	:min="min"
   	:max="max"
    	:step="step"
    	:bar-height="barHeight"
    	:bar-color="barColor"
    	:disabled="disabled">
-</range>
+</yep-range>
 ```
 
 可在滑块两侧显示文字
 
 ```html
-<range value.sync="rangeValue">
+<yep-range value.sync="rangeValue">
 	<div slot="start">0</div>
 	<div slot="end">100</div>
-</range>
+</yep-range>
 ```
 
 ## API

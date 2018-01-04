@@ -7,18 +7,18 @@
 ## 引入
 
 ```javascript
-import { btnSwitch } from 'yepui';
+import { yepBtnSwitch } from 'yepui';
 
-Vue.use(btnSwitch);
+Vue.use(yepBtnSwitch);
 ```
 
 ## 例子
 
 ```html
-<btn-switch 
+<yep-btn-switch 
     :currentStatus="switchOn" @handleSwitch="handleSwitch"
 >
-</btn-switch>
+</yep-btn-switch>
 
 ```
 

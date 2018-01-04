@@ -7,19 +7,19 @@
 ## 引入
 
 ```javascript
-import { search } from 'yepui';
+import { yepSearch } from 'yepui';
 
-Vue.use(search);
+Vue.use(yepSearch);
 ```
 
 ## 例子
 
 ```html
-<search ph="placeholder"
+<yep-search ph="placeholder"
         @handleSearch="handleSearch"
         @focusEvt="handleFocusEvt"
         @blurEvt="handleBlurEvt"
-></search>
+></yep-search>
 ```
 
 ```js

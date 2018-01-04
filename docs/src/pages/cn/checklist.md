@@ -7,19 +7,19 @@
 ## 引入
 
 ```javascript
-import { checklist } from 'yepui';
+import { yepChecklist } from 'yepui';
 
-Vue.use(checklist);
+Vue.use(yepChecklist);
 ```
 
 ## 例子
 
 ```html
-<checklist 
+<yep-checklist 
   :propsRadios="radios" 
   @handleRadioSelect="handleRadioSelect"
 >
-</checklist>
+</yep-checklist>
 
 ```
 

@@ -7,8 +7,8 @@
 
 ```javascript
 import Vue from 'vue'
-import { toast } from 'yepui';
-Vue.use(toast);
+import { yepToast } from 'yepui';
+Vue.use(yepToast);
 ```
 
 ## 例子
@@ -16,13 +16,13 @@ Vue.use(toast);
 基本用法
 
 ```javascript
-this.$toast("提示信息");
+this.$yepToast("提示信息");
 ```
 
 在调用时传入一个对象即可配置更多选项
 
 ```javascript
-  this.$toast({
+  this.$yepToast({
     message: 'message',
     duration: 3000
   });

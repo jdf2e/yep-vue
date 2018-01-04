@@ -4,9 +4,9 @@
 ## 引入
 
 ```javascript
-import { navbar } from 'yepui';
+import { yepNavbar } from 'yepui';
 
-Vue.use(navbar);
+Vue.use(yepNavbar);
 
 ```
 
@@ -14,11 +14,11 @@ Vue.use(navbar);
 
 ```html
 
-<navbar 
+<yep-navbar 
     :navbarList="navbarList" 
     :type="type" 
     @navbarClick="navbarClick">
-</navbar>
+</yep-navbar>
 
 ```
 

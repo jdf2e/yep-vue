@@ -7,15 +7,15 @@
 ## 引入
 
 ```javascript
-import { tips } from 'yepui';
+import { yepTips } from 'yepui';
 
-Vue.use(tips);
+Vue.use(yepTips);
 ```
 
 ## 例子
 
 ```html
-   <tips 
+   <yep-tips 
      :show="show1" 
      class="top" 
      :tipId="1" 
@@ -23,8 +23,8 @@ Vue.use(tips);
       text="内容"
       @handleCrossClick="handleCrossClick"
     >
-  </tips>
-  <tips 
+  </yep-tips>
+  <yep-tips 
     :show="show2" 
     class="middle" 
     :tipId="2" 
@@ -33,8 +33,8 @@ Vue.use(tips);
     @handleCrossClick="handleCrossClick"
   >
     <i class="triangle bottom" ></i>
-  </tips>
-  <tips 
+  </yep-tips>
+  <yep-tips 
     :show="show3" 
     :tipId="3" 
     class="bottom" 
@@ -42,7 +42,7 @@ Vue.use(tips);
     text="内容"
     @handleCrossClick="handleCrossClick"
   >
-</tips>
+</yep-tips>
 ```
 
 ```js

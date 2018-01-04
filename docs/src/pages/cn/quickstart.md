@@ -45,8 +45,8 @@ npm install --save @jdcfe/yepui
 ### 按需引入
 
 ```javascript
-  import {toast} from  '@jdcfe/yepui'
-  Vue.use(toast)
+  import {yepToast} from  '@jdcfe/yepui'
+  Vue.use(yepToast)
 ```
 ```javascript
 new Vue({
