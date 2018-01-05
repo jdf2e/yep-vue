@@ -7,7 +7,7 @@
 ## 引入
 
 ```javascript
-import { yepInfiniteScroll } from 'yepui';
+import { yepInfiniteScroll } from 'YepUI';
 
 Vue.use(yepInfiniteScroll);
 ```

@@ -7,7 +7,7 @@
 ## 引入
 
 ```javascript
-import { lazyload } from 'yepui';
+import { lazyload } from 'YepUI';
 
 Vue.use(lazyload);
 ```

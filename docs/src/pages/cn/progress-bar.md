@@ -7,7 +7,7 @@
 ## 引入
 
 ```javascript
-import { yepProgressBar } from 'yepui';
+import { yepProgressBar } from 'YepUI';
 
 Vue.use(yepProgressBar);
 ```

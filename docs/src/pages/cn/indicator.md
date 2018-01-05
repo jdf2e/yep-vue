@@ -6,7 +6,7 @@
 ## 引入
 
 ```javascript
-import { Indicator } from 'yepui';
+import { Indicator } from 'YepUI';
 ```
 
 ## 例子

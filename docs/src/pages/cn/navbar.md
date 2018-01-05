@@ -4,7 +4,7 @@
 ## 引入
 
 ```javascript
-import { yepNavbar } from 'yepui';
+import { yepNavbar } from 'YepUI';
 
 Vue.use(yepNavbar);
 

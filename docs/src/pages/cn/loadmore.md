@@ -7,7 +7,7 @@
 ## 引入
 
 ```javascript
-import { loadmore } from 'yepui';
+import { loadmore } from 'YepUI';
 
 Vue.use(loadmore);
 ```

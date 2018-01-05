@@ -7,7 +7,7 @@
 ## 引入
 
 ```javascript
-import { spinner } from 'yepui';
+import { spinner } from 'YepUI';
 
 Vue.use(spinner);
 ```

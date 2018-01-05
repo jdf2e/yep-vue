@@ -7,7 +7,7 @@
                     <span>test</span>
                     <router-link class="page-back router-link-active" to="/">
                         返回
-                        <i class="yepui yepui-back"></i>
+                        <i class="YepUI YepUI-back"></i>
                     </router-link>
                 </h1>
                 <div class="page-wrapper">
@@ -23,16 +23,16 @@
 
 <script>
     export default {
-        data() {
-            return {
-            }
+      data() {
+          return {
+            };
         },
-        methods: {
+      methods: {
         },
-        mounted() {
+      mounted() {
         },
-        components: {
-        }
-    }
+      components: {
+        },
+    };
 </script>
 

@@ -7,7 +7,7 @@
 ## 引入
 
 ```javascript
-import { yepTabbar } from 'yepui';
+import { yepTabbar } from 'YepUI';
 
 Vue.use(yepTabbar);
 ```

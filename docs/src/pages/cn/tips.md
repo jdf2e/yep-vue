@@ -7,7 +7,7 @@
 ## 引入
 
 ```javascript
-import { yepTips } from 'yepui';
+import { yepTips } from 'YepUI';
 
 Vue.use(yepTips);
 ```

@@ -7,7 +7,7 @@
 
 ```javascript
 import Vue from 'vue'
-import { yepConfirm } from 'yepui';
+import { yepConfirm } from 'YepUI';
 Vue.use(yepConfirm);
 ```
 

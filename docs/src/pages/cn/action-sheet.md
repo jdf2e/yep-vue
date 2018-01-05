@@ -7,7 +7,7 @@
 ## 引入
 
 ```javascript
-import { actionsheet } from 'yepui';
+import { actionsheet } from 'YepUI';
 
 Vue.use(actionsheet);
 ```

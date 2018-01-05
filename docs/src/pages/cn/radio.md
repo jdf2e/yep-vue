@@ -7,7 +7,7 @@
 ## 引入
 
 ```javascript
-import { radio } from 'yepui';
+import { radio } from 'YepUI';
 
 Vue.use(radio);
 ```

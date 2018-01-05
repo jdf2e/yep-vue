@@ -7,7 +7,7 @@
 ## 引入
 
 ```javascript
-import { datetimePicker } from 'yepui';
+import { datetimePicker } from 'YepUI';
 
 Vue.use(datetimePicker);
 ```

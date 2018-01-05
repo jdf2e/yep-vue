@@ -7,7 +7,7 @@
 ## 引入
 
 ```javascript
-import { yepIndexList, yepIndexSection } from 'yepui';
+import { yepIndexList, yepIndexSection } from 'YepUI';
 
 Vue.use(yepIndexList);
 Vue.use(yepIndexSection);

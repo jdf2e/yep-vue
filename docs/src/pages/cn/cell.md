@@ -8,7 +8,7 @@
 ## 引入
 
 ```javascript
-import { yepCell } from 'yepui';
+import { yepCell } from 'YepUI';
 
 Vue.use(yepCell);
 ```

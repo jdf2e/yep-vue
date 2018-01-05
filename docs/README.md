@@ -1,5 +1,5 @@
 # docs
-> documentation for Yep-ui.
+> documentation for YepUI.
 
 ## Development
 ```shell

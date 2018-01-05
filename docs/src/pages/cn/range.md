@@ -7,7 +7,7 @@
 ## 引入
 
 ```javascript
-import { yepRange } from 'yepui';
+import { yepRange } from 'YepUI';
 
 Vue.use(yepRange);
 ```

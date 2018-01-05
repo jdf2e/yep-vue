@@ -7,7 +7,7 @@
 ## 引入
 
 ```javascript
-import { yepPopupExternal } from 'yepui';
+import { yepPopupExternal } from 'YepUI';
 
 Vue.use(yepPopupExternal);
 ```
