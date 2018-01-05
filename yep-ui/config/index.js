@@ -1,8 +1,9 @@
-'use strict'
+
+
 // Template version: 1.2.7
 // see http://vuejs-templates.github.io/webpack for documentation.
 
-const path = require('path')
+const path = require('path');
 
 module.exports = {
   dev: {
@@ -54,8 +55,8 @@ module.exports = {
 
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
-    assetsSubDirectory: 'static',
-    assetsPublicPath: '/',
+    assetsSubDirectory: '1.0.0',
+    assetsPublicPath: 'demos/',
 
     /**
      * Source Maps
@@ -76,6 +77,6 @@ module.exports = {
     // View the bundle analyzer report after build finishes:
     // `npm run build --report`
     // Set to `true` or `false` to always turn it on or off
-    bundleAnalyzerReport: process.env.npm_config_report
-  }
-}
+    bundleAnalyzerReport: process.env.npm_config_report,
+  },
+};
