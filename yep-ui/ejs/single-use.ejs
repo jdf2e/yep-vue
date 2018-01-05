@@ -1,0 +1,6 @@
+import <%= params.camelName %> from './src/<%= params.type %>.vue';
+export default {
+    install: (Vue) => {
+        Vue.component('Yep-<%= params.name %>', <%= params.camelName %>);
+    }
+}

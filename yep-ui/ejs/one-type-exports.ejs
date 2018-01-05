@@ -1,0 +1,6 @@
+<% params.names.forEach(function(name){ %>import <%=name.camelCase%> from './<%=name.original%>/index'
+<% })%>
+const <%= params.type%>s = [<% params.names.forEach(function(name){ %><%=name.camelCase%>,
+<% }) %>]
+export default <%= params.type%>s
+
