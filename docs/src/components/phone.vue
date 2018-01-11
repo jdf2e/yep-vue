@@ -24,7 +24,7 @@
   };
 </script>
 
-<style lang="css" scoped>
+<style lang="scss" scoped>
   .phone {
     background-image: url('./../assets/img/phone.png');
     box-sizing: border-box;

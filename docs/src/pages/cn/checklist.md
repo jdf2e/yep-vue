@@ -15,45 +15,41 @@ Vue.use(yepChecklist);
 ## 例子
 
 ```html
-<yep-checklist 
-  :propsRadios="radios" 
-  @handleRadioSelect="handleRadioSelect"
->
+<yep-checklist
+  :propsRadios="radios"
+  @handleRadioSelect="handleRadioSelect">
 </yep-checklist>
 
 ```
 
 ```javascript
 data() {
-    return {
-        currentIndex:1,
-        radios: {
-            1: {
-                text: '明细',
-                disabled: false,
-                selected: true
-
-            },
-            222: {
-                text: '办公用品',
-                disabled: true,
-                selected: false
-
-            },
-            333: {
-                text: '个人',
-                disabled: false,
-                selected: false
-
-            },
-        }
+  return {
+    currentIndex:1,
+    radios: {
+      1: {
+        text: '明细',
+        disabled: false,
+        selected: true
+      },
+      222: {
+        text: '办公用品',
+        disabled: true,
+        selected: false
+      },
+      333: {
+        text: '个人',
+        disabled: false,
+        selected: false
+      },
     }
+  }
 },
 methods: {
-    handleRadioSelect(index) {
-        this.currentIndex=index;
-        console.log(index);
-    },
+  handleRadioSelect(index) {
+    this.currentIndex=index;
+    console.log(index);
+  },
 },
 ```
 

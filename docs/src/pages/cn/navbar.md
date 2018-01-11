@@ -13,48 +13,44 @@ Vue.use(yepNavbar);
 ## 例子
 
 ```html
-
-<yep-navbar 
-    :navbarList="navbarList" 
-    :type="type" 
+<yep-navbar
+    :navbarList="navbarList"
+    :type="type"
     @navbarClick="navbarClick">
 </yep-navbar>
-
 ```
 
 ```js
-
 data() {
-    return {
-        navbarList: [
-            {
-                name: 'tab0',
-                selected: true,
-            },
-            {
-                name: 'tab1',
-                selected: false,
-            },
-        ],
-        type: 'type0',
-    };
+  return {
+    navbarList: [
+      {
+        name: 'tab0',
+        selected: true,
+      },
+      {
+        name: 'tab1',
+        selected: false,
+      },
+    ],
+    type: 'type0',
+  };
 },
 methods: {
-    navbarClick(index) {
-        switch (index) {
-            case 0:
-                this.type = 'type0';
-                break;
-            case 1:
-                this.type = 'type1';
-                break;
-            default:
-                this.type = 'type0';
-                break;
-        }
-    },
+  navbarClick(index) {
+    switch (index) {
+      case 0:
+        this.type = 'type0';
+        break;
+      case 1:
+        this.type = 'type1';
+        break;
+      default:
+        this.type = 'type0';
+        break;
+    }
+  },
 },
-
 ```
 
 ## API

@@ -18,28 +18,27 @@ Vue.use(touch);
 
 ```html
 <figure class="code-wrap"
-    v-touch:swipeleft="handleSwipeleft"
-    v-touch:swiperight="handleSwiperight"
-    v-touch:swipeup="handleSwipeup"
-    v-touch:swipedown="handleSwipedown"
-    v-touch:press="handlePress"
->
+  v-touch:swipeleft="handleSwipeleft"
+  v-touch:swiperight="handleSwiperight"
+  v-touch:swipeup="handleSwipeup"
+  v-touch:swipedown="handleSwipedown"
+  v-touch:press="handlePress">
 </figure>
 ```
 
 ```javascript
 methods: {
   handleSwipeleft(){
-     alert('左滑了')
+    alert('左滑了')
  },
  handleSwiperight(){
-     alert('右滑了')
+    alert('右滑了')
  }, handleSwipeup(){
-     alert('上滑了')
+    alert('上滑了')
  }, handleSwipedown(){
-     alert('下滑了')
+    alert('下滑了')
  }, handlePress(){
-     alert('按住了')
+    alert('按住了')
  },
 }
 ```

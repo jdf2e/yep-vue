@@ -15,12 +15,12 @@ Vue.use(yepProgressBar);
 ## 例子
 
 ```html
- <yep-progress-bar 
+ <yep-progress-bar
    :percent="percent"
    :colorStart="colorStart"
    :colorEnd="colorEnd"
   >
-  </yep-progress-bar>
+ </yep-progress-bar>
 ```
 
 ## API

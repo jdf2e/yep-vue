@@ -17,48 +17,47 @@ Vue.use(yepCellSwipe);
 
 
 ```html
- <yep-cell-swipe :params="params" 
+ <yep-cell-swipe :params="params"
     @handleConfirmClick="handleConfirmClick"
     @handleCancelClick="handleCancelClick">
  </yep-cell-swipe>
 ```
 
 ```js
-
 params:[
-    {
-        text:'swipe me 1',
-    },
-    {
-        text:'swipe me 2',
-    },
-    {
-        text:'swipe me 3',
-    },
-    {
-        text:'swipe me 4',
-    },
-    {
-        text:'swipe me 5',
-    },
-    {
-        text:'swipe me 6',
-    },
-    {
-        text:'swipe me 7',
-    },
-    {
-        text:'swipe me 8',
-    },
-    {
-        text:'swipe me 9',
-    },
-    {
-        text:'swipe me 10',
-    },
-    {
-        text:'swipe me 11',
-    },
+  {
+    text:'swipe me 1',
+  },
+  {
+    text:'swipe me 2',
+  },
+  {
+    text:'swipe me 3',
+  },
+  {
+    text:'swipe me 4',
+  },
+  {
+    text:'swipe me 5',
+  },
+  {
+    text:'swipe me 6',
+  },
+  {
+    text:'swipe me 7',
+  },
+  {
+    text:'swipe me 8',
+  },
+  {
+    text:'swipe me 9',
+  },
+  {
+    text:'swipe me 10',
+  },
+  {
+    text:'swipe me 11',
+  },
 ]
 
 ```

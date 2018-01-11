@@ -15,9 +15,8 @@ Vue.use(yepBtnSwitch);
 ## 例子
 
 ```html
-<yep-btn-switch 
-    :currentStatus="switchOn" @handleSwitch="handleSwitch"
->
+<yep-btn-switch
+    :currentStatus="switchOn" @handleSwitch="handleSwitch">
 </yep-btn-switch>
 
 ```

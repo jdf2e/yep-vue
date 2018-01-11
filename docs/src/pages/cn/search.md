@@ -16,27 +16,24 @@ Vue.use(yepSearch);
 
 ```html
 <yep-search ph="placeholder"
-        @handleSearch="handleSearch"
-        @focusEvt="handleFocusEvt"
-        @blurEvt="handleBlurEvt"
-></yep-search>
+  @handleSearch="handleSearch"
+  @focusEvt="handleFocusEvt"
+  @blurEvt="handleBlurEvt">
+</yep-search>
 ```
 
 ```js
-
- handleSearch(message) {
-      this.message= `search:${message}`;
-      console.log(`search:${message}`);
-  },
-  handleFocusEvt(message) {
-      this.message= `focus:${message}`;
-  },
-  handleBlurEvt(message) {
-      console.log('blur');
-      this.message= `blur:${message}`;
-
-  }
-
+handleSearch(message) {
+  this.message= `search:${message}`;
+  console.log(`search:${message}`);
+},
+handleFocusEvt(message) {
+  this.message= `focus:${message}`;
+},
+handleBlurEvt(message) {
+  console.log('blur');
+  this.message= `blur:${message}`;
+}
 ```
 
 

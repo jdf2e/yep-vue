@@ -15,33 +15,32 @@ Vue.use(yepTips);
 ## 例子
 
 ```html
-   <yep-tips 
-     :show="show1" 
-     class="top" 
-     :tipId="1" 
-     :triangle="{}"
-      text="内容"
-      @handleCrossClick="handleCrossClick"
-    >
-  </yep-tips>
-  <yep-tips 
-    :show="show2" 
-    class="middle" 
-    :tipId="2" 
-    :triangle="{pos:'top',show:true}"
+<yep-tips
+   :show="show1"
+   class="top"
+   :tipId="1"
+   :triangle="{}"
     text="内容"
-    @handleCrossClick="handleCrossClick"
-  >
-    <i class="triangle bottom" ></i>
-  </yep-tips>
-  <yep-tips 
-    :show="show3" 
-    :tipId="3" 
-    class="bottom" 
-    :triangle="{pos:'top',show:true}"
-    text="内容"
-    @handleCrossClick="handleCrossClick"
-  >
+    @handleCrossClick="handleCrossClick">
+</yep-tips>
+
+<yep-tips
+  :show="show2"
+  class="middle"
+  :tipId="2"
+  :triangle="{pos:'top',show:true}"
+  text="内容"
+  @handleCrossClick="handleCrossClick">
+  <i class="triangle bottom" ></i>
+</yep-tips>
+
+<yep-tips
+  :show="show3"
+  :tipId="3"
+  class="bottom"
+  :triangle="{pos:'top',show:true}"
+  text="内容"
+  @handleCrossClick="handleCrossClick">
 </yep-tips>
 ```
 
@@ -49,14 +48,14 @@ Vue.use(yepTips);
 
   data() {
     return {
-        show1: true,
-        show2: true,
-        show3: true,
+      show1: true,
+      show2: true,
+      show3: true,
     }
   },
   methods: {
     handleCrossClick(id) {
-        this[`show${id}`] = !this[`show${id}`];
+      this[`show${id}`] = !this[`show${id}`];
     },
   },
 

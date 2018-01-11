@@ -14,18 +14,18 @@ Vue.use(yepConfirm);
 ## 例子
 
 ```javascript
- this.$yepConfirm({
-    title: 'test',
-    message: 'test',
-    leftTxt: '取消',
-    rightTxt: '确认',
-    submit: () => {
-       alert('点击确认按钮')
-    },
-    cancel: () => {
-       alert('点击取消按钮')
-    }
- });
+this.$yepConfirm({
+  title: 'test',
+  message: 'test',
+  leftTxt: '取消',
+  rightTxt: '确认',
+  submit: () => {
+     alert('点击确认按钮')
+  },
+  cancel: () => {
+     alert('点击取消按钮')
+  }
+});
 ```
 
 ## API

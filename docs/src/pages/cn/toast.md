@@ -22,10 +22,10 @@ this.$yepToast("提示信息");
 在调用时传入一个对象即可配置更多选项
 
 ```javascript
-  this.$yepToast({
-    message: 'message',
-    duration: 3000
-  });
+this.$yepToast({
+  message: 'message',
+  duration: 3000
+});
 ```
 
 ## API

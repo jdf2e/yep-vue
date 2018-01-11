@@ -16,39 +16,39 @@ Vue.use(yepTabbar);
 
 
 ```html
- <yep-tabbar :tabs="tabs" @handTabClick="handTabClick"></yep-tabbar>
+<yep-tabbar :tabs="tabs" @handTabClick="handTabClick"></yep-tabbar>
 ```
 
 ```js
 
 tabs: [
   {
-      text: '111',
-      selected: true,
-      imgUrl: '//placehold.it/24x24',
+    text: '111',
+    selected: true,
+    imgUrl: '//placehold.it/24x24',
   },
   {
-      text: '222',
-      selected: false,
-      imgUrl: '//placehold.it/24x24',
+    text: '222',
+    selected: false,
+    imgUrl: '//placehold.it/24x24',
 
   },
   {
-      text: '333',
-      selected: false,
-      imgUrl: '//placehold.it/24x24',
+    text: '333',
+    selected: false,
+    imgUrl: '//placehold.it/24x24',
 
   },
   {
-      text: '444',
-      selected: false,
-      imgUrl: '//placehold.it/24x24',
+    text: '444',
+    selected: false,
+    imgUrl: '//placehold.it/24x24',
 
   },
   {
-      text: '555',
-      selected: false,
-      imgUrl: '//placehold.it/24x24',
+    text: '555',
+    selected: false,
+    imgUrl: '//placehold.it/24x24',
 
   },
 ],

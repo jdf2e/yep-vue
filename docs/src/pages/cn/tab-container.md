@@ -16,40 +16,43 @@ Vue.use(yep-tab-container);
 
 
 ```html
-  <yep-tab-container :hasTitle="hasTitle" :hdList="hdList">
-      <div class="bd-0">
-          <ul>
-              <li v-for="n in 5" :key="n">item</li>
-          </ul>
-      </div>
-      <div class="bd-1">
-          <ul>
-              <li v-for="n in 10" :key="n">item</li>
-          </ul>
-      </div>
-      <div class="bd-2">
-          <ul>
-              <li v-for="n in 15" :key="n">item</li>
-          </ul>
-      </div>
-  </yep-tab-container>
+<yep-tab-container :hasTitle="hasTitle" :hdList="hdList">
+
+  <div class="bd-0">
+    <ul>
+      <li v-for="n in 5" :key="n">item</li>
+    </ul>
+  </div>
+
+  <div class="bd-1">
+    <ul>
+      <li v-for="n in 10" :key="n">item</li>
+    </ul>
+  </div>
+
+  <div class="bd-2">
+    <ul>
+      <li v-for="n in 15" :key="n">item</li>
+    </ul>
+  </div>
+
+</yep-tab-container>
 ```
 
 ```js
-
 hdList: [
-    {
-        name: 'tab0',
-        selected: true,
-    },
-    {
-        name: 'tab1',
-        selected: false,
-    },
-    {
-        name: 'tab2',
-        selected: false,
-    },
+  {
+    name: 'tab0',
+    selected: true,
+  },
+  {
+    name: 'tab1',
+    selected: false,
+  },
+  {
+    name: 'tab2',
+    selected: false,
+  },
 ],
 hasTitle: true,
 

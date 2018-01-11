@@ -18,13 +18,14 @@ Vue.use(yepCell);
 基础用法
 ```html
 <yep-cell title="标题文字"></yep-cell>
+
 <yep-cell title="标题文字" value="说明文字"></yep-cell>
 ```
 
 可点击的链接
 
 ```html
-<<yep-cell
+<yep-cell
   title="标题文字"
   to="//github.com"
   is-link

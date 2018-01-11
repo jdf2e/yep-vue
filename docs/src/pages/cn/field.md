@@ -16,10 +16,9 @@ Vue.use(yepField);
 
 基础用法
 ```html
-<yep-field 
-    :inputs="inputs"
-    @handleLinkClick="handleLinkClick"
- >
+<yep-field
+  :inputs="inputs"
+  @handleLinkClick="handleLinkClick">
 </yep-field>
 
 ```
@@ -27,37 +26,35 @@ Vue.use(yepField);
 ```js
 
 data() {
-    return {
-        currentItem: {},
-        inputs: {
-            text: {
-                label: '姓名',
-                placeholder: '姓名',
-                text: 'test',
-            },
-            phone: {
-                label: '手机',
-                placeholder: '手机号',
-                text: '13333333333',
-
-            },
-            link: {
-                label: 'link',
-
-                placeholder: 'link',
-                text: 'link',
-            },
-            pwd: {
-              label: '密码',
-              placeholder: '密码',
-              text: 'dddddddd',
-            }
-        }
+  return {
+    currentItem: {},
+    inputs: {
+      text: {
+        label: '姓名',
+        placeholder: '姓名',
+        text: 'test',
+      },
+      phone: {
+        label: '手机',
+        placeholder: '手机号',
+        text: '13333333333',
+      },
+      link: {
+        label: 'link',
+        placeholder: 'link',
+        text: 'link',
+      },
+      pwd: {
+      label: '密码',
+      placeholder: '密码',
+      text: 'dddddddd',
+      }
     }
+  }
 },
 methods: {
   handleLinkClick(){
-
+    ...
   }
 },
 

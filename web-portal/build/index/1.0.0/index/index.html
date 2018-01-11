@@ -1,0 +1,276 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>YepUI</title>
+    <meta name="description" content="YepUI 是一款基于 Vue.js 2.0 的前端 UI 组件库，主要用于快速搭建移动端H5网站
+友好亲和京东App，扩展有京东业务组件可供选择">
+    <meta name="keywords" content="YepUI,UI,Vue,组件库,移动端,vue.js2.0,前端,京东,JDC">
+    <link href="//yep.jd.com/index/1.0.0/css/index.css" rel="stylesheet">
+    <link rel="shortcut icon" href="//yep.jd.com/index/1.0.0/css/i/favicon.ico">
+    
+    <script type="text/javascript">function setFontSize() {
+    var deviceWidth = document.documentElement.clientWidth;
+    if (deviceWidth > 750) {
+        deviceWidth = 750;
+    }
+    var rootFontSize = (deviceWidth / 7.5).toFixed(2);
+    document.documentElement.style.fontSize = rootFontSize + 'px';
+}
+setFontSize();
+window.addEventListener('resize', function () {
+    setFontSize();
+});</script>
+</head>
+<body>
+<div class="page-home">
+    <div class="page-home-bgpic"></div>
+    <div class="page-home-mask"></div>
+    <div class="page-home-particles" id="particles-js"></div>
+    <div class="page-home-content">
+        <div class="page-home-jumbotron logo-animate">
+            <div class="page-home-logo logo-animate">
+                <img src="/css/i/logo.png" alt="">
+                <p class="page-home-title">YepUI</p>
+                <p class="page-home-desc">YepUI 是一款基于 Vue.js 2.0 的前端 UI 组件库，主要用于快速搭建移动端网站</p>
+            </div>
+            <div class="page-home-buttons">
+                <a href="//yep.jd.com/docs.html#/cn" class="page-home-button logo-animate" target="_blank">
+                    开始使用
+                </a>
+                <a href="//yep.jd.com/demos.html#/index" class="page-home-button logo-animate" target="_blank">
+                    查看示例
+                    <div class="tri-angle" onmouseover="ShowElements('qrcode-area')" onmouseout="HiddenElements('qrcode-area')"></div>
+                    <div class="page-home-qrcode none" id="qrcode-area">
+                        <i class="arrow"></i>
+                        <div class="qrcode-container">
+                            <img src="//yep.jd.com/index/1.0.0/css/i/qrcode.png" alt="">
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="page-home-warehouse">
+                <a href="http://npm.jd.com/" class="npm" target="_blank">
+                    <img src="/css/i/npm.png" alt="">
+                </a>
+                <a href="http://git.jd.com/JDC_FE/JDC_m_UI" class="github" target="_blank">
+                    <img src="/css/i/Git-3.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="page-home-start">
+            <div class="page-home-left">
+                <!--<h3 class="page-home-tit">介绍</h3>-->
+                <!--<div class="page-home-detail">YepUI 是一款基于 Vue.js 2.0 的前端 UI 组件库，主要用于快速搭建移动端H5网站；友好亲和京东App，扩展有京东业务组件可供选择</div>-->
+                <h3 class="page-home-tit">特性</h3>
+                <div class="page-home-detail">
+                    <ul class="">
+                        <li>1. 基于 Vue 开发的 UI 组件</li>
+                        <li>2. 使用 npm + webpack + babel 的工作流，支持 ES2015</li>
+                        <li>3. CSS 样式独立，即使使用不同的框架实现，也都能保持统一的 UI 风格提供友好的 API，可灵活的使用组件</li>
+                    </ul>
+                </div>
+                <h3 class="page-home-tit">用法</h3>
+                <div class="page-home-code">
+                    <code> <span class="page-home-comment"># 安装nrm</span> <span> <span class="pl-smi">npm install -g nrm</span> </span> <span class="page-home-comment"># 添加jdnpm源</span> <span> <span class="pl-smi">nrm add jdnpm2 http://registry.m.jd.com/</span> </span>
+                        <span> <span class="pl-smi">nrm use jdnpm2</span> </span> <span class="page-home-comment"># 安装组件</span> <span> <span class="pl-smi">npm install --save @jdcfe/YepUI</span> </span>
+                    </code>
+                </div>
+                <div class="page-home-code">
+                    <code> <span class="page-home-comment">// 引入全部组件</span> <span> <span class="pl-k">import </span><span class="pl-smi">YepUI </span><span class="pl-k">from </span><span class="pl-s">'@jdcfe/YepUI'</span><span class="pl-smi">;</span> </span> <span> <span class="pl-smi">Vue.</span><span class="pl-en">use</span><span class="pl-smi">(YepUI);</span> </span>
+                    </code>
+                    <code> <span class="page-home-comment">// 按需引入部分组件</span> <span> <span class="pl-k">import </span><span class="pl-smi">{yepToast} </span><span class="pl-k">from </span><span class="pl-s">'@jdcfe/YepUI'</span><span class="pl-smi">;</span> </span> </code>
+                </div>
+            </div>
+            <div class="page-home-phone">
+                <iframe src="//yep.jd.com/demos.html#/index" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="page-home-intro">
+    <h3 class="page-home-tit">功能介绍</h3>
+    <div class="page-home-show">
+        <ul class="page-home-feature">
+            <li>
+                <img src="/css/i/1.png" alt="" class="left">
+                <div class="right">
+                    <h6 class="intro-title">流畅的体验</h6>
+                    <p class="intro-content">考虑到移动端的性能门槛， 于是采用 CSS3处理各种动效，避免浏览器进行不必要的重绘和重排，从而使用户获得流畅顺滑的体验。</p>
+                </div>
+            </li>
+            <li>
+                <img src="/css/i/2.png" alt="" class="right">
+                <div class="left">
+                    <h6 class="intro-title">丰富的组件</h6>
+                    <p class="intro-content">包含丰富的 CSS 和 JS 组件，能够满足日常的移动端开发需要。通过它，可以快速构建出风格统一的页面，提升开发效率。</p>
+                </div>
+            </li>
+            <li>
+                <img src="/css/i/3.png" alt="" class="left">
+                <div class="right"><h6 class="intro-title">轻量化</h6>
+                    <p class="intro-content">依托 Vue.js 高效的组件化方案， 做到了轻量化。即使全部引入，压缩后的文件体积也仅有 ~30kb(JS + CSS) gzip。</p>
+                </div>
+            </li>
+            <li>
+                <img src="/css/i/4.png" alt="" class="right">
+                <div class="left">
+                    <h6 class="intro-title">按需加载</h6>
+                    <p class="intro-content">真正意义上的按需加载组件。可以只加载声明过的组件及其样式文件，无需再纠结文件体积过大。</p></div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="toTop none" id="toTop" onclick="ScrollToTop()">
+    <?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="icon" width="40px" height="40.00px" viewbox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M570.201 721.872h-116.4v-116.4h116.4v116.4z" fill="#ffffff"/><path d="M337.401 489.073h-116.4v-116.4h116.4v116.4z" fill="#ffffff"/><path d="M686.599 605.472h-116.4v-116.4h116.4v116.4z" fill="#ffffff"/><path d="M802.999 489.073h-116.4v-116.4h116.4v116.4z" fill="#ffffff"/><path d="M453.8 605.472h-116.4v-116.4h116.4v116.4z" fill="#ffffff"/></svg>
+</div>
+<footer class="page-home-footer">邮箱：<a href="mailto:yep_group@jd.com">jdf_yep@jd.com</a> | Copyright © 京东前端开发部
+</footer>
+<!-- built files will be auto injected -->
+<script type="text/javascript" src="//yep.jd.com/index/1.0.0/js/??/util.js,/particles.js"></script>
+<script type="text/javascript">function ShowElements(id) {
+    var DOM = document.getElementById(id);
+    removeClass('none', DOM);
+    addClass('show', DOM);
+}
+function HiddenElements(id) {
+    var DOM = document.getElementById(id);
+    removeClass('show', DOM);
+    addClass('none', DOM);
+}
+function ScrollToTop() {
+    var firstPageHead = 0;
+    HiddenElements('toTop');
+    window.scrollTo(0, firstPageHead);
+}
+function scrollFunc() {
+    var firstPageHeight = document.documentElement.clientWidth > 500 ? 876 : 425;
+    if (window.scrollY > firstPageHeight) {
+        ShowElements('toTop');
+    } else {
+        HiddenElements('toTop');
+    }
+    if (document.documentElement.clientWidth < 500 && window.scrollY > 2104) {
+        var toTopDOM = document.getElementById('toTop');
+        toTopDOM.style.bottom = window.scrollY - 2104 + 50;
+    } else {
+    }
+}
+window.onload = function () {
+    if (document.addEventListener) {
+        document.addEventListener('DOMMouseScroll', scrollFunc, false);
+        document.addEventListener('touchmove', scrollFunc, false);
+        document.addEventListener('scroll', scrollFunc, false);
+    }
+    window.onmousewheel = document.onmousewheel = scrollFunc;
+    window.ontouchmove = document.ontouchmove = scrollFunc;
+    window.onscroll = document.onscroll = scrollFunc;
+    var deviceWidth = document.documentElement.clientWidth;
+    if (deviceWidth > 750) {
+        var json = {
+            'particles': {
+                'number': {
+                    'value': 30,
+                    'density': {
+                        'enable': true,
+                        'value_area': 800
+                    }
+                },
+                'color': { 'value': '#ffffff' },
+                'shape': {
+                    'type': 'triangle',
+                    'stroke': {
+                        'width': 0,
+                        'color': '#000000'
+                    },
+                    'polygon': { 'nb_sides': 5 },
+                    'image': {
+                        'src': 'img/github.svg',
+                        'width': 100,
+                        'height': 100
+                    }
+                },
+                'opacity': {
+                    'value': 0.3,
+                    'random': false,
+                    'anim': {
+                        'enable': false,
+                        'speed': 1,
+                        'opacity_min': 0.1,
+                        'sync': false
+                    }
+                },
+                'size': {
+                    'value': 10,
+                    'random': true,
+                    'anim': {
+                        'enable': false,
+                        'speed': 3,
+                        'size_min': 0.1,
+                        'sync': false
+                    }
+                },
+                'line_linked': {
+                    'enable': true,
+                    'distance': 300,
+                    'color': '#ffffff',
+                    'opacity': 0.4,
+                    'width': 2
+                },
+                'move': {
+                    'enable': true,
+                    'speed': 12,
+                    'direction': 'none',
+                    'random': false,
+                    'straight': false,
+                    'out_mode': 'out',
+                    'bounce': false,
+                    'attract': {
+                        'enable': false,
+                        'rotateX': 600,
+                        'rotateY': 1200
+                    }
+                }
+            },
+            'interactivity': {
+                'detect_on': 'canvas',
+                'events': {
+                    'onhover': {
+                        'enable': false,
+                        'mode': 'repulse'
+                    },
+                    'onclick': {
+                        'enable': false,
+                        'mode': 'push'
+                    },
+                    'resize': true
+                },
+                'modes': {
+                    'grab': {
+                        'distance': 800,
+                        'line_linked': { 'opacity': 1 }
+                    },
+                    'bubble': {
+                        'distance': 800,
+                        'size': 80,
+                        'duration': 2,
+                        'opacity': 0.8,
+                        'speed': 3
+                    },
+                    'repulse': {
+                        'distance': 400,
+                        'duration': 0.4
+                    },
+                    'push': { 'particles_nb': 4 },
+                    'remove': { 'particles_nb': 2 }
+                }
+            },
+            'retina_detect': true
+        };
+        particlesJS.load('particles-js', JSON.stringify(json), function () {
+            console.log('callback - particles.js config loaded');
+        });
+    }
+};</script>
+</body>
+</html>

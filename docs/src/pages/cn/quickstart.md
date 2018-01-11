@@ -10,14 +10,11 @@
 npm install -g vue-cli
 
 vue init webpack projectname
-
-
 ```
 
 ## 安装YepUI ##
 
 ```bash
-
 # 安装nrm #
 npm install -g nrm
 
@@ -47,28 +44,31 @@ npm install --save @jdcfe/YepUI
 ```javascript
   import {yepToast} from  '@jdcfe/YepUI'
   Vue.use(yepToast)
-```
-```javascript
-new Vue({
-  el: '#app',
-  components: { App }
-})
+
+  new Vue({
+    el: '#app',
+    components: { App }
+  })
 ```
 
 
 然后，将 .babelrc 修改为：
 ```json
-{
-  "presets": [
-    ["es2015", { "modules": false }]
-  ],
-  "plugins": [["component", [
-    {
-      "libraryName": "YepUI",
-      "style": true
-    }
-  ]]]
-}
+  {
+    "presets": [
+      ["es2015", { "modules": false }]
+    ],
+    "plugins": [
+      ["component",
+        [
+          {
+            "libraryName": "YepUI",
+            "style": true
+          }
+        ]
+      ]
+    ]
+  }
 ```
 
 ## 开始使用
