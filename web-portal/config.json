@@ -5,5 +5,8 @@
     "password": "arch"
   },
   "projectPath": "index/1.0.0",
-  "cdn": "//yep.jd.com"
+  "imagesDir": "index/1.0.0/css/i",
+  "jsDir": "index/1.0.0/js",
+  "cdn": "//yep.jd.com",
+  "jsCombo": false
 }
