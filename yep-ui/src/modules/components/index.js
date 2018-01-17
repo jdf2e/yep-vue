@@ -12,6 +12,8 @@ import field from './field/index'
 import indexList from './index-list/index'
 import indexSection from './index-section/index'
 import infiniteScroll from './infinite-scroll/index'
+import lazyLoad from './lazy-load/index'
+import loadMore from './load-more/index'
 import longPwdConfirm from './long-pwd-confirm/index'
 import navbar from './navbar/index'
 import picker from './picker/index'
@@ -46,6 +48,8 @@ field,
 indexList,
 indexSection,
 infiniteScroll,
+lazyLoad,
+loadMore,
 longPwdConfirm,
 navbar,
 picker,

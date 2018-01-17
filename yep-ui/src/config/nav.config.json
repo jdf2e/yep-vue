@@ -38,6 +38,11 @@
         "icon": "index-list"
       },
       {
+        "path": "/load-more",
+        "name": "Load-more",
+        "icon": "load-more"
+      },
+      {
         "path": "/picker",
         "name": "Picker",
         "icon": "picker"
@@ -86,6 +91,11 @@
         "path": "/x-test",
         "name": "x-test",
         "icon": "x-test"
+      },
+      {
+        "path": "/lazy-load",
+        "name": "lazy-load",
+        "icon": "lazy-load"
       }
     ]
   },
