@@ -5,7 +5,7 @@
   "private": false,
   "keywords": [],
   "cdnPath": "//misc.360buyimg.com/",
-  "projectPath": "/docs/",
+  "projectPath": "/index/",
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",

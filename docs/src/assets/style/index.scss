@@ -1,0 +1,232 @@
+@import "./lib";
+@import "./reset";
+
+@media (min-width: 500px ) {
+  .page-home-warehouse {
+    width: 2rem;
+    margin: 0.5rem auto;
+    box-sizing: border-box;
+    &:after {
+      clear: both;
+      content: '';
+      display: block;
+    }
+    a {
+      float: left;
+      width: 40%;
+      height: 1.78*0.4rem;
+    }
+    a.npm {
+      margin-right: 0.2rem;
+      img {
+        height: 1.78*0.4rem;
+        width: 2*0.4rem;
+      }
+    }
+    a.github {
+      margin-top: 0.15rem;
+      img {
+        height: 0.4rem;
+        width: 0.4rem;
+      }
+    }
+  }
+  .page-home-particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 8.76rem;
+  }
+  .page-home-show {
+    min-width: 1038px;
+    max-width: 1230px;
+  }
+  .page-home-content {
+    min-width: 967px;
+    max-width: 1130px;
+  }
+  .toTop {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    cursor: pointer;
+    background-color: rgba(0,0,0,.8);
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    svg {
+      cursor: pointer;
+      transform: rotate(180deg);
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .page-home-warehouse {
+    width: 100%;
+    margin-left: 2.1rem;
+    margin-top: 0.4rem;
+    a {
+      float: left;
+      width: 16%;
+      height: 1.78*0.5rem;
+    }
+    a.npm {
+      margin-right: 0.2rem;
+      img {
+        height: 1.78*0.5rem;
+        width: 2*0.5rem;
+      }
+    }
+    a.github {
+      margin-top: 0.15rem;
+      img {
+        height: 0.5rem;
+        width: 0.5rem;
+      }
+    }
+  }
+  .page-home-phone, .tri-angle , .qrcode-container , .page-home-particles{
+    display: none;
+  }
+
+   body{
+    .page-home {
+      .page-home-bgpic{
+        height: 8.75rem;
+      }
+      .page-home-mask{
+        height: 8.75rem;
+      }
+      .page-home-content {
+        width: 90%;
+        .page-home-jumbotron {
+          padding-top: 1rem;
+          .page-home-title {
+            margin-top: 0.5rem;
+          }
+
+          .page-home-desc {
+            margin-top: 0.3rem;
+            margin-bottom: 0.5rem;
+            font-family: MicrosoftYaHei;
+            font-size: 0.33rem;
+            line-height: 0.4rem;
+          }
+          .page-home-buttons {
+            .page-home-button {
+              font-size: 0.3rem;
+              width: 4.37*0.7rem;
+              height: 1.13*0.7rem;
+              line-height: 1.13*0.7rem;
+              background-color: #0aa461;
+            }
+
+            .page-home-button:first-child {
+              margin-right: 0.4rem;
+            }
+          }
+
+        }
+        .page-home-start {
+          padding-top: 1rem;
+          .page-home-left {
+            display: inline-block;
+            .page-home-detail {
+              width: 100%;
+              height: 2.4rem;
+              text-align: justify;
+              font-family: monospace;
+              font-size: 1em;
+              line-height: 0.4rem;
+              border-left: 0.1rem solid #4eacdd;
+              padding-left: 0.07rem;
+            }
+            .page-home-code {
+              width: 100%;
+              code {
+                display: block;
+                margin-top: 25px
+              }
+
+            }
+          }
+          .page-home-tit {
+            text-align: center;
+            letter-spacing: 0.5rem;
+          }
+        }
+      }
+    }
+    .page-home-intro {
+      width: 100%;
+      .page-home-tit {
+        text-align: center;
+        letter-spacing: 0.1rem;
+        color: #34485e;
+      }
+      .page-home-show {
+        width: 100%;
+        .page-home-feature {
+          display: inline-block;
+          width: 100%;
+          margin-bottom: 0.8rem;
+          li {
+            display: block;
+            width: 100%;
+            height: 0;
+            margin: 0;
+            padding: 0;
+            img {
+              display: block;
+              width: 6rem;
+              height: 6rem;
+              margin: 0 auto;
+            }
+            div {
+              float: right;
+              width: 90%;
+              padding-top: 0;
+              margin: 0 auto;
+              .intro-title {
+                font-size: 0.4rem;
+                width: 80%;
+              }
+              .intro-content {
+                margin-top: 0.34rem;
+                width: 80%;
+                font-family: AdobeHeitiStd-Regular;
+                font-size: 0.20rem;
+                line-height: 0.33rem;
+                letter-spacing: 0.01rem;
+                color: #000000;
+                text-align: justify;
+              }
+            }
+            div.left {
+              text-align: left;
+            }
+            div.right {
+              text-align: right;
+            }
+          }
+        }
+      }
+    }
+    .toTop {
+      position: fixed;
+      bottom: 50px;
+      right: 0.5rem;
+      cursor: pointer;
+      background-color: rgba(0,0,0,.8);
+      width: 40px;
+      height: 40px;
+      border-radius: 25px;
+      svg {
+        cursor: pointer;
+        transform: rotate(180deg);
+      }
+    }
+  }
+}

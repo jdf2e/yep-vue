@@ -1,6 +1,8 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import LANG_CONFIG from './langs.json';
+import Index from './pages/index.vue';
+import DocIndex from './pages/docIndex.vue';
 
 Vue.use(VueRouter);
 
@@ -12,185 +14,272 @@ LANG_CONFIG.langs.forEach(item => {
   }
 });
 
-const route = {
-  // '/': {
-  //   component: resolve => require(['./pages/README.md'], resolve),
-  //   default_lang: defaultLang,
-  //   langs: LANG_CONFIG.langs,
-  //   title: '选择语言'
-  // },
-  // '/cn': {
-  //   title: '概述',
-  //   language: 'cn',
-  //   component: resolve => require(['./pages/cn/README.md'], resolve)
-  // },
-  '/': {
-    title: '快速上手',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/quickstart.md'], resolve)
+const routes = [
+  {
+    path: '/',
+    redirect: '/index',
   },
-  '/cn': {
-    title: '快速上手',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/quickstart.md'], resolve)
+  {
+    path: '/index',
+    component: Index,
+    meta: {
+      title: 'YepUI'
+    }
   },
-  '/cn/quickstart': {
-    title: '快速上手',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/quickstart.md'], resolve)
+  {
+    path: '/cn',
+    component: DocIndex,
+    children: [
+      {
+        path: '',
+        redirect: 'quickstart'
+      },
+      {
+        path: 'quickstart',
+        component: resolve => require(['./pages/cn/quickstart.md'], resolve),
+        meta: {
+          title: '快速上手',
+          language: 'cn',
+        }
+      },
+      {
+        path: 'toast',
+        component: resolve => require(['./pages/cn/toast.md'], resolve),
+        meta: {
+          title: 'Toast',
+          language: 'cn',
+        }
+      },
+      {
+        path: 'indicator',
+        component: resolve => require(['./pages/cn/indicator.md'], resolve),
+        meta: {
+          title: 'Indicator',
+          language: 'cn',
+        }
+      },
+      {
+        path: 'loadmore',
+        component: resolve => require(['./pages/cn/loadmore.md'], resolve),
+        meta: {
+          title: 'Loadmore',
+          language: 'cn',
+        }
+      },
+      {
+        path: 'Infinite scroll',
+        component: resolve => require(['./pages/cn/infinite-scroll.md'], resolve),
+        meta: {
+          title: '快速上手',
+          language: 'cn',
+        }
+      },
+      {
+        path: 'confirm',
+        component: resolve => require(['./pages/cn/confirm.md'], resolve),
+        meta: {
+          title: 'Confirm',
+          language: 'cn',
+        }
+      },
+      {
+        path: 'action-sheet',
+        component: resolve => require(['./pages/cn/action-sheet.md'], resolve),
+        meta: {
+          title: 'Action sheet',
+          language: 'cn',
+        }
+      },
+      {
+        path: 'popup',
+        component: resolve => require(['./pages/cn/popup.md'], resolve),
+        meta: {
+          title: 'Popup',
+          language: 'cn',
+        }
+      },
+      {
+        path: 'touch',
+        component: resolve => require(['./pages/cn/touch.md'], resolve),
+        meta: {
+          title: 'Touch',
+          language: 'cn',
+        }
+      },
+      {
+        path: 'range',
+        component: resolve => require(['./pages/cn/range.md'], resolve),
+        meta: {
+          title: 'Range',
+          language: 'cn',
+        }
+      },
+      {
+        path: 'totop',
+        component: resolve => require(['./pages/cn/totop.md'], resolve),
+        meta: {
+          title: 'Totop',
+          language: 'cn',
+        }
+      },
+      {
+        path: 'progress-bar',
+        component: resolve => require(['./pages/cn/progress-bar.md'], resolve),
+        meta: {
+          title: 'Progress bar',
+          language: 'cn',
+        }
+      },
+      {
+        path: 'picker',
+        component: resolve => require(['./pages/cn/picker.md'], resolve),
+        meta: {
+          title: 'Picker',
+          language: 'cn',
+        }
+      },
+      {
+        path: 'datetime-picker',
+        component: resolve => require(['./pages/cn/datetime-picker.md'], resolve),
+        meta: {
+          title: 'Datetime picker',
+          language: 'cn',
+        }
+      },
+      {
+        path: 'index-list',
+        component: resolve => require(['./pages/cn/index-list.md'], resolve),
+        meta: {
+          title: 'Index list',
+          language: 'cn',
+        }
+      },
+      {
+        path: 'header',
+        component: resolve => require(['./pages/cn/header.md'], resolve),
+        meta: {
+          title: 'Header',
+          language: 'cn',
+        }
+      },
+      {
+        path: 'tabbar',
+        component: resolve => require(['./pages/cn/tabbar.md'], resolve),
+        meta: {
+          title: 'Tabbar',
+          language: 'cn',
+        }
+      },
+      {
+        path: 'navbar',
+        component: resolve => require(['./pages/cn/navbar.md'], resolve),
+        meta: {
+          title: 'Navbar',
+          language: 'cn',
+        }
+      },
+      {
+        path: 'button',
+        component: resolve => require(['./pages/cn/button.md'], resolve),
+        meta: {
+          title: 'Button',
+          language: 'cn',
+        }
+      },
+      {
+        path: 'tips',
+        component: resolve => require(['./pages/cn/tips.md'], resolve),
+        meta: {
+          title: 'Tips',
+          language: 'cn',
+        }
+      },
+      {
+        path: 'cell',
+        component: resolve => require(['./pages/cn/cell.md'], resolve),
+        meta: {
+          title: 'Cell',
+          language: 'cn',
+        }
+      },
+      {
+        path: 'cell-swipe',
+        component: resolve => require(['./pages/cn/cell-swipe.md'], resolve),
+        meta: {
+          title: 'Cell swipe',
+          language: 'cn',
+        }
+      },
+      {
+        path: 'spinner',
+        component: resolve => require(['./pages/cn/spinner.md'], resolve),
+        meta: {
+          title: 'Spinner',
+          language: 'cn',
+        }
+      },
+      {
+        path: 'tab-container',
+        component: resolve => require(['./pages/cn/tab-container.md'], resolve),
+        meta: {
+          title: 'Tab container',
+          language: 'cn',
+        }
+      },
+      {
+        path: 'search',
+        component: resolve => require(['./pages/cn/search.md'], resolve),
+        meta: {
+          title: 'Search',
+          language: 'cn',
+        }
+      },
+      {
+        path: 'switch',
+        component: resolve => require(['./pages/cn/switch.md'], resolve),
+        meta: {
+          title: 'Switch',
+          language: 'cn',
+        }
+      },
+      {
+        path: 'checklist',
+        component: resolve => require(['./pages/cn/checklist.md'], resolve),
+        meta: {
+          title: 'Checklist',
+          language: 'cn',
+        }
+      },
+      {
+        path: 'radio',
+        component: resolve => require(['./pages/cn/radio.md'], resolve),
+        meta: {
+          title: 'Radio',
+          language: 'cn',
+        }
+      },
+      {
+        path: 'field',
+        component: resolve => require(['./pages/cn/field.md'], resolve),
+        meta: {
+          title: 'Field',
+          language: 'cn',
+        }
+      },
+      {
+        path: 'badge',
+        component: resolve => require(['./pages/cn/badge.md'], resolve),
+        meta: {
+          title:'Badge',
+          language: 'cn',
+        }
+      },
+    ]
   },
-  '/cn/toast': {
-    title: 'Toast',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/toast.md'], resolve)
-  },
-  '/cn/indicator': {
-    title: 'Indicator',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/indicator.md'], resolve)
-  },
-  '/cn/loadmore': {
-    title: 'Loadmore',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/loadmore.md'], resolve)
-  },
-  '/cn/infinite-scroll': {
-    title: 'Infinite scroll',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/infinite-scroll.md'], resolve)
-  },
-  '/cn/confirm': {
-    title: 'confirm',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/confirm.md'], resolve)
-  },
-  '/cn/action-sheet': {
-    title: 'Action sheet',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/action-sheet.md'], resolve)
-  },
-  '/cn/popup': {
-    title: 'Popup',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/popup.md'], resolve)
-  },
-  '/cn/touch': {
-    title: 'Touch',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/touch.md'], resolve)
-  },
-  '/cn/range': {
-    title: 'Range',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/range.md'], resolve)
-  },
-  '/cn/totop': {
-    title: 'Totop',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/totop.md'], resolve)
-  },
-  '/cn/progress-bar': {
-    title: 'Progress-bar',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/progress-bar.md'], resolve)
-  },
-  '/cn/picker': {
-    title: 'Picker',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/picker.md'], resolve)
-  },
-  '/cn/datetime-picker': {
-    title: 'Datetime Picker',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/datetime-picker.md'], resolve)
-  },
-  '/cn/index-list': {
-    title: 'Index List',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/index-list.md'], resolve)
-  },
-  '/cn/header': {
-    title: 'Header',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/header.md'], resolve)
-  },
-  '/cn/tabbar': {
-    title: 'Tabbar',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/tabbar.md'], resolve)
-  },
-  '/cn/navbar': {
-    title: 'Navbar',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/navbar.md'], resolve)
-  },
-  '/cn/button': {
-    title: 'Button',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/button.md'], resolve)
-  },
-  '/cn/tips': {
-    title: 'Tips',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/tips.md'], resolve)
-  },
-  '/cn/cell': {
-    title: 'Cell',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/cell.md'], resolve)
-  },
-  '/cn/cell-swipe': {
-    title: 'Cell Swipe',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/cell-swipe.md'], resolve)
-  },
-  '/cn/spinner': {
-    title: 'Spinner',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/spinner.md'], resolve)
-  },
-  '/cn/tab-container': {
-    title: 'TabContainer',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/tab-container.md'], resolve)
-  },
-  '/cn/search': {
-    title: 'Search',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/search.md'], resolve)
-  },
-  '/cn/switch': {
-    title: 'Switch',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/switch.md'], resolve)
-  },
-  '/cn/checklist': {
-    title: 'Checklist',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/checklist.md'], resolve)
-  },
-  '/cn/radio': {
-    title: 'Radio',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/radio.md'], resolve)
-  },
-  '/cn/field': {
-    title: 'Field',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/field.md'], resolve)
-  },
-  '/cn/badge': {
-    title: 'Badge',
-    language: 'cn',
-    component: resolve => require(['./pages/cn/badge.md'], resolve)
-  },
-};
+]
 
 const router = new VueRouter({
-  routes: formatRoute(route).concat([{
-      "path": "/",
-      "redirect": "/cn"
-  }])
+  routes: routes
 });
 
 router.beforeEach((to, from, next) => {
@@ -198,19 +287,5 @@ router.beforeEach((to, from, next) => {
   next();
 });
 
-function formatRoute(route) {
-  return Object.keys(route).map((path) => {
-    const { language, title, component } = route[path]
-
-    return {
-      name: path,
-      component,
-      path,
-      meta: Object.assign({}, route[path], {
-        language: language || defaultLang.value,
-      })
-    }
-  })
-}
 
 export default router;
