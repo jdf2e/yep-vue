@@ -38,12 +38,12 @@
         "icon": "index-list"
       },
       {
-        "path": "/loadmore",
+        "path": "/load-more",
         "name": "Load-more",
         "icon": "load-more"
       },
       {
-        "path": "/lazyload",
+        "path": "/lazy-load",
         "name": "Lazy-load",
         "icon": "lazy-load"
       },

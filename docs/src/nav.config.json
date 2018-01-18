@@ -27,11 +27,11 @@
         "name": "Index List"
       },
       {
-        "path": "/loadmore",
+        "path": "/load-more",
         "name": "Load more"
       },
       {
-        "path": "/lazyload",
+        "path": "/lazy-load",
         "name": "Lazy load"
       },
       {
