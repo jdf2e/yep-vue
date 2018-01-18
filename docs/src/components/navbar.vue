@@ -20,7 +20,7 @@
         <ul v-show="group.visible" transition="slidedown" :style="{
             maxHeight: group.list.length * 36 + 'px'
           }">
-          <li v-for="item in group.list">
+          <li v-for="(item, index) in group.list" :key="index">
             <router-link
               class="nav-link"
               :to="{ path: '/' + $route.meta.language + item.path }"

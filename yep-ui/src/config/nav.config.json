@@ -38,9 +38,14 @@
         "icon": "index-list"
       },
       {
-        "path": "/load-more",
+        "path": "/loadmore",
         "name": "Load-more",
         "icon": "load-more"
+      },
+      {
+        "path": "/lazyload",
+        "name": "Lazy-load",
+        "icon": "lazy-load"
       },
       {
         "path": "/picker",
@@ -91,11 +96,6 @@
         "path": "/x-test",
         "name": "x-test",
         "icon": "x-test"
-      },
-      {
-        "path": "/lazy-load",
-        "name": "lazy-load",
-        "icon": "lazy-load"
       }
     ]
   },

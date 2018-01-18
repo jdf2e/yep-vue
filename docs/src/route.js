@@ -60,9 +60,17 @@ const routes = [
       },
       {
         path: 'loadmore',
-        component: resolve => require(['./pages/cn/loadmore.md'], resolve),
+        component: resolve => require(['./pages/cn/load-more.md'], resolve),
         meta: {
           title: 'Loadmore',
+          language: 'cn',
+        }
+      },
+      {
+        path: 'lazyload',
+        component: resolve => require(['./pages/cn/lazyload.md'], resolve),
+        meta: {
+          title: 'Lazyload',
           language: 'cn',
         }
       },

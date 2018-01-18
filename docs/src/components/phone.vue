@@ -2,7 +2,7 @@
   <div class="phone">
     <iframe
       class="demo-page"
-      :src="'//yep.jd.com/demos.html#' + (routePath === '/loadmore' ? '/pull-down' : (routePath === '/quickstart' ? '' : routePath))"
+      :src="'//yep.jd.com/demos.html#' + routePath"
       frameborder="0">
     </iframe>
   </div>
@@ -14,7 +14,7 @@
 
     computed: {
       routePath() {
-        if (this.$route.path === '/' || this.$route.path === '/cn') {
+        if (this.$route.path === '/index' || this.$route.path === '/cn/quickstart') {
           return this.$route.path.replace(/.*/, '/index');
         }else{
           return this.$route.path.replace(/^\/(cn)/, '');

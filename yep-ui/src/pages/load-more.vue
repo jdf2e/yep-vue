@@ -11,7 +11,7 @@
                     </router-link>
                 </h1>
                 <div>
-                    <Yep-load-more @bottomMethod="readMore" :isLast="isLast" :isNull="isNull">
+                    <Yep-load-more @bottomMethod="readMore" :isLast="isLast">
                       <div class="load-block" v-for="user in userInfo" :key="user.name">
                         <div class="avatar">
                           <svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -83,7 +83,6 @@
       data() {
         return {
           isLast: false,
-          isNull: false,
           userInfo: [
             {
               name: '用户1',

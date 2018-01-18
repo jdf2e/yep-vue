@@ -27,6 +27,14 @@
         "name": "Index List"
       },
       {
+        "path": "/loadmore",
+        "name": "Load more"
+      },
+      {
+        "path": "/lazyload",
+        "name": "Lazy load"
+      },
+      {
         "path": "/range",
         "name": "Range"
       },
