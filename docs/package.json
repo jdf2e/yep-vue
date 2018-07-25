@@ -23,6 +23,7 @@
   "author": "JDC",
   "license": "MIT",
   "dependencies": {
+    "rellax": "^1.5.0",
     "sushi-ui": "^0.8.2",
     "vue": "^2.2.6",
     "vue-router": "^2.3.1"

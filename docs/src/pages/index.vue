@@ -1,6 +1,9 @@
 <template>
   <div class="outer-container">
-  <home-page></home-page>
+    <home-page></home-page>
+    <!--<canvas id="loiter" style="width: 100%; height: 800px; position: absolute;top: 0; left: 0; z-index: 100"></canvas>-->
+    <card-item></card-item>
+    <fast-start></fast-start>
   <introduction></introduction>
     <div class="toTop" :class="{'show': toTop, 'none': !toTop}" id="toTop" ref="toTop" @click="ScrollToTop">
      <svg class="icon" width="40px" height="40.00px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M570.201 721.872h-116.4v-116.4h116.4v116.4z" fill="#ffffff" /><path d="M337.401 489.073h-116.4v-116.4h116.4v116.4z" fill="#ffffff" /><path d="M686.599 605.472h-116.4v-116.4h116.4v116.4z" fill="#ffffff" /><path d="M802.999 489.073h-116.4v-116.4h116.4v116.4z" fill="#ffffff" /><path d="M453.8 605.472h-116.4v-116.4h116.4v116.4z" fill="#ffffff" /></svg>
@@ -11,8 +14,12 @@
 
 <script>
   import HomePage from './../components/HomePage.vue'
+  import CardItem from './../components/CardItem.vue'
+  import FastStart from './../components/FastStart.vue'
   import Introduction from './../components/Introduction.vue'
   import PageFooter from '../components/PageFooter.vue'
+  import loiterInit from '../assets/js/loiter'
+  import Rellax from 'rellax'
     export default {
     data () {
       return {
@@ -21,128 +28,28 @@
       }
     },
     components: {
-      HomePage, Introduction, PageFooter
+      HomePage, CardItem, FastStart, Introduction, PageFooter
     },
       mounted(){
         var deviceWidth = document.documentElement.clientWidth;
-        if (deviceWidth > 750) {
-          var json = {
-            "particles": {
-              "number": {
-                "value": 30,
-                "density": {
-                  "enable": true,
-                  "value_area": 800
-                }
-              },
-              "color": {
-                "value": "#ffffff"
-              },
-              "shape": {
-                "type": "triangle",
-                "stroke": {
-                  "width": 0,
-                  "color": "#000000"
-                },
-                "polygon": {
-                  "nb_sides": 5
-                },
-                "image": {
-                  "src": "img/github.svg",
-                  "width": 100,
-                  "height": 100
-                }
-              },
-              "opacity": {
-                "value": 0.3,
-                "random": false,
-                "anim": {
-                  "enable": false,
-                  "speed": 1,
-                  "opacity_min": 0.1,
-                  "sync": false
-                }
-              },
-              "size": {
-                "value": 10,
-                "random": true,
-                "anim": {
-                  "enable": false,
-                  "speed": 3,
-                  "size_min": 0.1,
-                  "sync": false
-                }
-              },
-              "line_linked": {
-                "enable": true,
-                "distance": 300,
-                "color": "#ffffff",
-                "opacity": 0.4,
-                "width": 2
-              },
-              "move": {
-                "enable": true,
-                "speed": 12,
-                "direction": "none",
-                "random": false,
-                "straight": false,
-                "out_mode": "out",
-                "bounce": false,
-                "attract": {
-                  "enable": false,
-                  "rotateX": 600,
-                  "rotateY": 1200
-                }
-              }
-            },
-            "interactivity": {
-              "detect_on": "canvas",
-              "events": {
-                "onhover": {
-                  "enable": false,
-                  "mode": "repulse"
-                },
-                "onclick": {
-                  "enable": false,
-                  "mode": "push"
-                },
-                "resize": true
-              },
-              "modes": {
-                "grab": {
-                  "distance": 800,
-                  "line_linked": {
-                    "opacity": 1
-                  }
-                },
-                "bubble": {
-                  "distance": 800,
-                  "size": 80,
-                  "duration": 2,
-                  "opacity": 0.8,
-                  "speed": 3
-                },
-                "repulse": {
-                  "distance": 400,
-                  "duration": 0.4
-                },
-                "push": {
-                  "particles_nb": 4
-                },
-                "remove": {
-                  "particles_nb": 2
-                }
-              }
-            },
-            "retina_detect": true
-          };
-          particlesJS.load('particles-js', JSON.stringify(json), function () {
-            console.log('callback - particles.js config loaded');
-          });
-        }
         document.body.onmousewheel = document.body.onmousewheel = this.scrollFunc;
         document.body.ontouchmove = document.body.ontouchmove = this.scrollFunc;
         document.body.onscroll = this.scrollFunc;
+        let rellax = new Rellax('.parallax-animation .rellax', {
+          speed: -2,
+          center: false,
+          round: true,
+          vertical: true,
+          horizontal: false
+        });
+        loiterInit(window);
+//        window.loiter.start({
+//          num:20,
+//          container:document.getElementsByTagName('canvas')[0],
+//          FPS:200,
+//          mode:'through',
+//          color: '#efefef'
+//          })
       },
       methods: {
         ScrollToTop () {
@@ -167,9 +74,8 @@
     } else {
       this.toTop = false;
     }
-    console.log(scrollTop)
-    if ( document.body.clientWidth < 500 && scrollTop > 2123) {
-      this.$refs.toTop.style.bottom = (scrollTop - 2123) + 50+'px';
+    if ( document.body.clientWidth < 500 && scrollTop > 2999) {
+      this.$refs.toTop.style.bottom = (scrollTop - 2999) + 50+'px';
     }
   }
       }

@@ -12,11 +12,15 @@
   .page-home-footer{
     height: 100px;
     line-height: 100px;
-    background-color: #26344e;
+    background-color: #46a0fc;
     text-align: center;
-    color: #acbbd1;
+    color: #fff;
     a{
-      color: #acbbd1;
+      padding: 5px;
+      color: #fff;
+      &:hover {
+        background-color: rgba(255,255,255,.1);
+      }
     }
   }
 </style>

@@ -48,7 +48,7 @@ data() {
 methods: {
   handleRadioSelect(index) {
     this.currentIndex=index;
-    console.log(index);
+
   },
 },
 ```

@@ -72,7 +72,6 @@ export default {
   },
 
   created() {
-    console.log(route);
     this.navs = route.navs;
   },
 };

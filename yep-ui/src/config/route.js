@@ -66,6 +66,5 @@ const registerRoute = (config) => {
 };
 
 const route = registerRoute(NavConfig);
-console.log(route);
 // export const navs = route.navs;
 export default route;
