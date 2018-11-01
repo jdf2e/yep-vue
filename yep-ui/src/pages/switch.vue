@@ -20,7 +20,7 @@
     </main>
 </template>
 
-<style lang="scss" rel="stylesheet/scss">
+<style lang="scss" rel="stylesheet/scss" scoped>
 .page-wrapper {
   .switch-span {
     font-size: 0.3rem;

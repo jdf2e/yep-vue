@@ -36,7 +36,7 @@
     </main>
 </template>
 
-<style lang="scss" rel="stylesheet/scss">
+<style lang="scss" rel="stylesheet/scss" scoped>
 .progress-bar .page-wrapper {
   input {
     height: 0.4rem;

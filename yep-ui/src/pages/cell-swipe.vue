@@ -17,7 +17,7 @@
     </main>
 </template>
 
-<style lang="scss" rel="stylesheet/scss">
+<style lang="scss" rel="stylesheet/scss" scoped>
 .page-wrapper > * {
   margin-bottom: 0.4rem;
 }

@@ -23,11 +23,6 @@
         "icon": "progressBar"
       },
       {
-        "path": "/address",
-        "name": "Address",
-        "icon": "address"
-      },
-      {
         "path": "/check-num",
         "name": "Check-num",
         "icon": "check-num"

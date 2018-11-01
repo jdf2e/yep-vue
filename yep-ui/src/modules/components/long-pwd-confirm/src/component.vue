@@ -49,7 +49,7 @@
 </template>
 <script>
     export default {
-        name: 'address',
+        name: 'JDAddress',
         data () {
             return {
                 payPassConfirm: [{

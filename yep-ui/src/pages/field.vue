@@ -18,7 +18,7 @@
     </main>
 </template>
 
-<style lang="scss" rel="stylesheet/scss">
+<style lang="scss" rel="stylesheet/scss" scoped>
 @import "../modules/assists/css/mixin.scss";
 
 .page-wrapper > * {

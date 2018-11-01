@@ -38,7 +38,7 @@
     </main>
 </template>
 
-<style lang="scss" rel="stylesheet/scss">
+<style lang="scss" rel="stylesheet/scss" scoped>
 @import "./../assets/css/mixin";
 .page-wrapper > * {
   margin-bottom: 0.4rem;

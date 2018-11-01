@@ -2,32 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="665416d4-420f-41ce-9ba5-d34551b384c3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/src/assets/icon/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/src/assets/js/particles.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yep-ui/src/pages/test-test.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yep-ui/src/pages/test.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yep-ui/src/pages/testx.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yep-ui/src/pages/text-t.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yep-ui/src/pages/textx.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yep-ui/src/pages/x-test.vue" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/src/assets/img/Git-3.png" afterPath="$PROJECT_DIR$/docs/src/assets/img/Git-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/src/assets/img/logo.png" afterPath="$PROJECT_DIR$/docs/src/assets/img/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/src/assets/img/npm.png" afterPath="$PROJECT_DIR$/docs/src/assets/img/npm.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/package-lock.json" afterPath="$PROJECT_DIR$/docs/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/package.json" afterPath="$PROJECT_DIR$/docs/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/src/assets/style/index.scss" afterPath="$PROJECT_DIR$/docs/src/assets/style/index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/src/assets/style/reset.scss" afterPath="$PROJECT_DIR$/docs/src/assets/style/reset.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/src/components/HomePage.vue" afterPath="$PROJECT_DIR$/docs/src/components/HomePage.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/src/components/Introduction.vue" afterPath="$PROJECT_DIR$/docs/src/components/Introduction.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/src/components/PageFooter.vue" afterPath="$PROJECT_DIR$/docs/src/components/PageFooter.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/src/pages/cn/checklist.md" afterPath="$PROJECT_DIR$/docs/src/pages/cn/checklist.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/src/pages/index.vue" afterPath="$PROJECT_DIR$/docs/src/pages/index.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-portal/.idea/workspace.xml" afterPath="$PROJECT_DIR$/web-portal/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yep-ui/src/config/nav.config.json" afterPath="$PROJECT_DIR$/yep-ui/src/config/nav.config.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yep-ui/src/config/route.js" afterPath="$PROJECT_DIR$/yep-ui/src/config/route.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yep-ui/src/pages/index.vue" afterPath="$PROJECT_DIR$/yep-ui/src/pages/index.vue" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/docs/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yep-ui/src/config/nav.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/yep-ui/src/config/nav.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yep-ui/src/modules/components/long-pwd-confirm/src/component.vue" beforeDir="false" afterPath="$PROJECT_DIR$/yep-ui/src/modules/components/long-pwd-confirm/src/component.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yep-ui/src/pages/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/yep-ui/src/pages/button.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yep-ui/src/pages/cell-swipe.vue" beforeDir="false" afterPath="$PROJECT_DIR$/yep-ui/src/pages/cell-swipe.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yep-ui/src/pages/cell.vue" beforeDir="false" afterPath="$PROJECT_DIR$/yep-ui/src/pages/cell.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yep-ui/src/pages/check-num.vue" beforeDir="false" afterPath="$PROJECT_DIR$/yep-ui/src/pages/check-num.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yep-ui/src/pages/field.vue" beforeDir="false" afterPath="$PROJECT_DIR$/yep-ui/src/pages/field.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yep-ui/src/pages/load-more.vue" beforeDir="false" afterPath="$PROJECT_DIR$/yep-ui/src/pages/load-more.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yep-ui/src/pages/picker.vue" beforeDir="false" afterPath="$PROJECT_DIR$/yep-ui/src/pages/picker.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yep-ui/src/pages/progress-bar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/yep-ui/src/pages/progress-bar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yep-ui/src/pages/switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/yep-ui/src/pages/switch.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yep-ui/src/pages/tabbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/yep-ui/src/pages/tabbar.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,11 +29,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yep-ui/src/router/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state>
               <folding>
                 <element signature="e#1#23#0" expanded="true" />
               </folding>
@@ -53,13 +40,110 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yep-ui/src/main.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="nav.config.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yep-ui/src/config/nav.config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="component.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yep-ui/src/modules/components/index-list/src/component.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-portal/index/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/src/pages/index.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-184" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomePage.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/src/components/HomePage.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="load-more.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yep-ui/src/pages/load-more.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="component.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yep-ui/src/modules/components/long-pwd-confirm/src/component.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.page-wrapper</find>
+      <find>address</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/docs/src</dir>
+      <dir>$PROJECT_DIR$/yep-ui</dir>
+      <dir>$PROJECT_DIR$/yep-ui/src</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/yep-ui/src/pages/load-more.vue" />
+        <option value="$PROJECT_DIR$/yep-ui/src/modules/components/long-pwd-confirm/src/component.vue" />
+        <option value="$PROJECT_DIR$/yep-ui/src/config/nav.config.json" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/yep-ui/package.json" />
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -68,28 +152,22 @@
     <handled-path value="$PROJECT_DIR$/docs/node_modules" />
     <handled-path value="$PROJECT_DIR$/yep-ui/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-1080" />
-    <option name="y" value="-442" />
-    <option name="width" value="1080" />
-    <option name="height" value="1920" />
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/docs/package.json" />
+      <path value="$PROJECT_DIR$/yep-ui/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1232" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -98,6 +176,23 @@
               <item name="JDC_m_UI" type="b2602c69:ProjectViewProjectNode" />
               <item name="JDC_m_UI" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JDC_m_UI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDC_m_UI" type="462c0819:PsiDirectoryNode" />
+              <item name="yep-ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JDC_m_UI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDC_m_UI" type="462c0819:PsiDirectoryNode" />
+              <item name="yep-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JDC_m_UI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDC_m_UI" type="462c0819:PsiDirectoryNode" />
+              <item name="yep-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -105,9 +200,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v8.0.0/bin/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -121,8 +218,38 @@
       </list>
     </option>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="RunManager">
+    <configuration name="build" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/yep-ui/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/yep-ui/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <list>
+      <item itemvalue="npm.dev" />
+      <item itemvalue="npm.build" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -136,32 +263,44 @@
       <workItem from="1532478735455" duration="49000" />
       <workItem from="1532478827664" duration="45000" />
       <workItem from="1532478907929" duration="19000" />
+      <workItem from="1541038863199" duration="2167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1637000" />
+    <option name="totallyTimeSpent" value="3804000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1080" y="-442" width="1080" height="1920" extended-state="0" />
+    <frame x="0" y="23" width="1232" height="777" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32483476" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Quokka" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49780703" visible="true" weight="0.20148638" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32941177" />
+      <window_info id="npm" sideWeight="0.502193" side_tool="true" visible="true" weight="0.20148638" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Quokka" order="8" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,15 +309,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/yep-ui/src/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="e#1#23#0" expanded="true" />
           </folding>
@@ -187,35 +321,94 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yep-ui/src/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="e#1#23#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yep-ui/src/pages/infinite-scroll.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yep-ui/src/pages/infinite-scroll.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yep-ui/src/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="e#1#23#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yep-ui/src/pages/infinite-scroll.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yep-ui/src/pages/infinite-scroll.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-portal/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-portal/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/src/pages/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/src/components/HomePage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yep-ui/src/pages/load-more.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yep-ui/src/modules/components/long-pwd-confirm/src/component.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yep-ui/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#1#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yep-ui/src/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yep-ui/src/config/nav.config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yep-ui/src/modules/components/index-list/src/component.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
